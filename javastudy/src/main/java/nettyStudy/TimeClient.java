@@ -42,7 +42,7 @@ public class TimeClient {
                     ch.pipeline().addLast(new TimeClientHandler());
                 }
             });
-
+            System.out.println("test1");
             ChannelFuture f = b.connect(host, port).sync();
             f.channel().closeFuture().sync();
         } finally {
