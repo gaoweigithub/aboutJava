@@ -21,11 +21,13 @@ package dynamicproxy;
  * @since JDK1.7
  */
 public class Liudehua implements Person {
+    @Override
     public String sing(String name) {
         System.out.println("刘德华唱歌:" + name);
         return "唱完了  谢谢大家";
     }
 
+    @Override
     public String dance(String name) {
         System.out.println("刘德华跳舞" + name);
         return "跳完了 谢谢大家";
