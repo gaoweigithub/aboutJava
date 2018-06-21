@@ -19,6 +19,7 @@ package JUC.VolatileTest;
  * @author gw33973
  * @version 1.0
  * @since JDK1.7
+ *
  */
 public class TestVolatile {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package 内部类.匿名内部类;
+package JUC.内部类.匿名内部类;
 
 import javax.swing.*;
 import java.awt.*;

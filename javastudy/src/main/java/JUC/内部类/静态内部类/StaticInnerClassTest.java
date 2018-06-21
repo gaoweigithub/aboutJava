@@ -1,6 +1,4 @@
-package 内部类.静态内部类;
-
-import java.util.Random;
+package JUC.内部类.静态内部类;
 
 public class StaticInnerClassTest {
     public static void main(String[] args) {

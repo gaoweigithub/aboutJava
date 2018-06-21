@@ -1,4 +1,4 @@
-package 内部类.静态内部类;
+package JUC.内部类.静态内部类;
 
 public class ArrayAlg {
     public static class Pair {

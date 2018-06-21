@@ -1,4 +1,4 @@
-package 内部类;
+package JUC.内部类;
 /**
  * 根据Oracle官方的说法：
  * Nested classes are divided into two categories: static and non-static.

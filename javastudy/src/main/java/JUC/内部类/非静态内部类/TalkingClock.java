@@ -1,4 +1,4 @@
-package 内部类.非静态内部类;
+package JUC.内部类.非静态内部类;
 
 
 import javax.swing.*;
