@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/垃圾回收/TestJConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/垃圾回收/TestSyncAddRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/垃圾回收/ThreadWaitingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/BeanDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/MixinInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/OtherSampleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/SampleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/SampleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/SampleKeyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CglibTest/unittest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflecttest/classloadtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javastudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javastudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflecttest/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflecttest/user.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,112 +34,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="创建线程导致内存异常.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/内存溢出/创建线程导致内存异常.java">
+      <file leaf-file-name="SampleClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/SampleClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runtimeConstantPoolOmm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/内存溢出/方法区和运行时常量池溢出/runtimeConstantPoolOmm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="351">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaMethodAreaOOM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/内存溢出/方法区和运行时常量池溢出/JavaMethodAreaOOM.java">
+      <file leaf-file-name="unittest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/unittest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="395">
+              <caret line="245" column="7" lean-forward="true" selection-start-line="245" selection-start-column="7" selection-end-line="245" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#testFixedValue#0;class#unittest#0" />
+                <element signature="method#testInvocationHandler#0;class#unittest#0" />
+                <element signature="method#testCallBackFilter#0;class#unittest#0" />
+                <element signature="method#testImmutableBean#0;class#unittest#0" />
+                <element signature="method#testBeanGenerator#0;class#unittest#0" />
+                <element signature="method#testBeanMap#0;class#unittest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RefCountAndRecuise.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/RefCountAndRecuise.java">
+      <file leaf-file-name="BeanDelegate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/BeanDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="88">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAllocation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestAllocation.java">
+      <file leaf-file-name="MixinInterfaceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/MixinInterfaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="48" selection-start-line="10" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestTenuringThreshold2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestTenuringThreshold2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestJConsole.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestJConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="224">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadWaitingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/ThreadWaitingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSyncAddRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestSyncAddRunnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPretenureSizeThreshold.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestPretenureSizeThreshold.java">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="59" />
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OtherSampleBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/OtherSampleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SampleBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/SampleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#82#83#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,16 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JUC/Condition控制线程通信/TestProductorAndConsumerForLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/Condition控制线程通信/Clerk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/线程按序交替/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/线程按序交替/TestABCAlternate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/线程按序交替/AlternateDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/TestReadWriteLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/ReadWriteLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestAllLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock04.java" />
         <option value="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock03.java" />
         <option value="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock01.java" />
         <option value="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock02.java" />
@@ -192,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/内存溢出/java堆溢出/HeapOOM.java" />
         <option value="$PROJECT_DIR$/src/main/java/内存溢出/虚拟机栈和本地方法栈/JavaVMStackSOF.java" />
         <option value="$PROJECT_DIR$/src/main/java/内存溢出/创建线程导致内存异常.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/内存溢出/方法区和运行时常量池溢出/runtimeConstantPoolOmm.java" />
         <option value="$PROJECT_DIR$/src/main/java/内存溢出/方法区和运行时常量池溢出/JavaMethodAreaOOM.java" />
         <option value="$PROJECT_DIR$/src/main/java/垃圾回收/RefCountAndRecuise.java" />
@@ -203,6 +197,17 @@
         <option value="$PROJECT_DIR$/src/main/java/垃圾回收/TestJConsole.java" />
         <option value="$PROJECT_DIR$/src/main/java/垃圾回收/ThreadWaitingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/垃圾回收/TestSyncAddRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/reflecttest/classloadtest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/reflecttest/user.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/SampleClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/SampleBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/OtherSampleBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/SampleKeyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/MixinInterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/BeanDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CglibTest/unittest.java" />
       </list>
     </option>
   </component>
@@ -215,9 +220,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\java\maven\localwarehouse" />
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.5.2\conf\settings - tc.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -237,6 +240,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="javalearn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="javalearn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -292,8 +300,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,7 +331,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="垃圾回收" type="462c0819:PsiDirectoryNode" />
+              <item name="CglibTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
@@ -340,10 +346,20 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicproxyTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -379,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSyncAddRunnable">
+  <component name="RunManager" selected="JUnit.unittest.testMixin">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -401,34 +417,11 @@
       <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+HeapDumpOnOutOfMemoryError" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RefCountAndRecuise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="垃圾回收.RefCountAndRecuise" />
-      <module name="javastudy" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="垃圾回收.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="内存溢出.方法区和运行时常量池溢出.runtimeConstantPoolOmm" />
       <module name="javastudy" />
       <option name="VM_PARAMETERS" value="-XX:PermSize=10M -XX:MaxPermSize=10M" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SelfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.内部类.测试.SelfNumber" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUC.内部类.测试.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="StackSOFLeak" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="内存溢出.虚拟机栈和本地方法栈.JavaVMStackSOF" />
@@ -454,47 +447,14 @@
       <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestSyncAddRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="垃圾回收.TestSyncAddRunnable" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="垃圾回收.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="TestTenuringThreshold2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="垃圾回收.TestTenuringThreshold2" />
       <module name="javastudy" />
       <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15 -XX:+PrintTenuringDistribution" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ThreadWaitingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="垃圾回收.ThreadWaitingTest" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="垃圾回收.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.内部类.测试.test2" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUC.内部类.测试.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -503,6 +463,121 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittest.testBeanCopier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javastudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CglibTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CglibTest" />
+      <option name="MAIN_CLASS_NAME" value="CglibTest.unittest" />
+      <option name="METHOD_NAME" value="testBeanCopier" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittest.testBeanMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javastudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CglibTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CglibTest" />
+      <option name="MAIN_CLASS_NAME" value="CglibTest.unittest" />
+      <option name="METHOD_NAME" value="testBeanMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittest.testBulkBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javastudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CglibTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CglibTest" />
+      <option name="MAIN_CLASS_NAME" value="CglibTest.unittest" />
+      <option name="METHOD_NAME" value="testBulkBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittest.testKeyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javastudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CglibTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CglibTest" />
+      <option name="MAIN_CLASS_NAME" value="CglibTest.unittest" />
+      <option name="METHOD_NAME" value="testKeyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittest.testMixin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javastudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CglibTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CglibTest" />
+      <option name="MAIN_CLASS_NAME" value="CglibTest.unittest" />
+      <option name="METHOD_NAME" value="testMixin" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -544,19 +619,19 @@
       <item itemvalue="Application.创建线程导致内存异常" />
       <item itemvalue="Application.StackSOFLeak" />
       <item itemvalue="Application.HeapOOMTest" />
-      <item itemvalue="Application.SelfNumber" />
-      <item itemvalue="Application.test2" />
-      <item itemvalue="Application.RefCountAndRecuise" />
-      <item itemvalue="Application.ThreadWaitingTest" />
-      <item itemvalue="Application.TestSyncAddRunnable" />
+      <item itemvalue="JUnit.unittest.testBeanCopier" />
+      <item itemvalue="JUnit.unittest.testBulkBean" />
+      <item itemvalue="JUnit.unittest.testBeanMap" />
+      <item itemvalue="JUnit.unittest.testKeyFactory" />
+      <item itemvalue="JUnit.unittest.testMixin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSyncAddRunnable" />
-        <item itemvalue="Application.ThreadWaitingTest" />
-        <item itemvalue="Application.RefCountAndRecuise" />
-        <item itemvalue="Application.test2" />
-        <item itemvalue="Application.SelfNumber" />
+        <item itemvalue="JUnit.unittest.testMixin" />
+        <item itemvalue="JUnit.unittest.testKeyFactory" />
+        <item itemvalue="JUnit.unittest.testBeanMap" />
+        <item itemvalue="JUnit.unittest.testBulkBean" />
+        <item itemvalue="JUnit.unittest.testBeanCopier" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +654,9 @@
       <workItem from="1527606922859" duration="1699000" />
       <workItem from="1529569561830" duration="6686000" />
       <workItem from="1530106058537" duration="4496000" />
-      <workItem from="1530194970578" duration="4423000" />
+      <workItem from="1530194970578" duration="4469000" />
+      <workItem from="1530620534115" duration="617000" />
+      <workItem from="1531144902450" duration="6307000" />
     </task>
     <task id="LOCAL-00001" summary="proxyadd">
       <created>1523463266445</created>
@@ -602,19 +679,50 @@
       <option name="project" value="LOCAL" />
       <updated>1527432961897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="虚拟机调优">
+      <created>1530204051658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530204051658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestForkJoinPool_test1 - 2018.05.29 at 23h 33m 02s.xml">
-      <configuration name="TestForkJoinPool.test1" configurationId="JUnit" />
+    <history-entry file="unittest_testBeanGenerator - 2018.07.09 at 23h 03m 13s.xml">
+      <configuration name="unittest.testBeanGenerator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestForkJoinPool_test2 - 2018.05.29 at 23h 34m 20s.xml">
-      <configuration name="TestForkJoinPool.test2" configurationId="JUnit" />
+    <history-entry file="unittest_testBeanGenerator - 2018.07.09 at 23h 03m 27s.xml">
+      <configuration name="unittest.testBeanGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testBeanGenerator - 2018.07.09 at 23h 04m 30s.xml">
+      <configuration name="unittest.testBeanGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testBeanGenerator - 2018.07.09 at 23h 05m 08s.xml">
+      <configuration name="unittest.testBeanGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testBeanCopier - 2018.07.09 at 23h 08m 51s.xml">
+      <configuration name="unittest.testBeanCopier" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testBulkBean - 2018.07.09 at 23h 15m 12s.xml">
+      <configuration name="unittest.testBulkBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testBulkBean - 2018.07.09 at 23h 15m 20s.xml">
+      <configuration name="unittest.testBulkBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testBeanMap - 2018.07.09 at 23h 21m 22s.xml">
+      <configuration name="unittest.testBeanMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testKeyFactory - 2018.07.09 at 23h 32m 07s.xml">
+      <configuration name="unittest.testKeyFactory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="unittest_testMixin - 2018.07.09 at 23h 38m 48s.xml">
+      <configuration name="unittest.testMixin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75604000" />
+    <option name="totallyTimeSpent" value="82574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -630,11 +738,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37482712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4495159" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22879177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23521851" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -642,13 +750,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982103" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39695713" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="SBT Console" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="SBT Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="SBT Execute" order="7" side_tool="true" />
     </layout>
@@ -661,7 +769,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="proxyadd" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxyadd" />
+    <MESSAGE value="虚拟机调优" />
+    <option name="LAST_COMMIT_MESSAGE" value="虚拟机调优" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,123 +823,20 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CglibTest/unittest.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/原子变量/AtomicDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/匿名内部类/AnonymousInnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/原子变量/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/原子变量/UnAtomicDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/原子变量/TestAtomicDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/awt/event/ActionListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/匿名内部类/TalkingClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/VolatileTest/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/非静态内部类/TalkingClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/非静态内部类/InnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/静态内部类/ArrayAlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/ssc.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/静态内部类/StaticInnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/ThreadLocal/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ThreadLocal.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/SelfNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/deploy.jar!/com/sun/deploy/util/StringUtils.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/deploy.jar!/com/sun/deploy/util/ArrayUtil.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/testsingleon.java">
@@ -1009,13 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestAllocation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1033,18 +1032,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestTenuringThreshold2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/ThreadWaitingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
+        <state relative-caret-position="726">
           <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1052,16 +1049,201 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestSyncAddRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/TestJConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="322">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/bt/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflecttest/user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflecttest/classloadtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dynamicproxyTest/ldhProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/SampleClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.7/cglib-3.2.7.jar!/net/sf/cglib/proxy/CallbackHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/SampleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.0-M1/junit-platform-commons-1.3.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.7/cglib-3.2.7.jar!/net/sf/cglib/core/Converter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.7/cglib-3.2.7-sources.jar!/net/sf/cglib/core/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/OtherSampleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/SampleKeyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/MixinInterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.7/cglib-3.2.7-sources.jar!/net/sf/cglib/reflect/MethodDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/BeanDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/unittest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="245" column="7" lean-forward="true" selection-start-line="245" selection-start-column="7" selection-end-line="245" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testFixedValue#0;class#unittest#0" />
+            <element signature="method#testInvocationHandler#0;class#unittest#0" />
+            <element signature="method#testCallBackFilter#0;class#unittest#0" />
+            <element signature="method#testImmutableBean#0;class#unittest#0" />
+            <element signature="method#testBeanGenerator#0;class#unittest#0" />
+            <element signature="method#testBeanMap#0;class#unittest#0" />
           </folding>
         </state>
       </provider>
