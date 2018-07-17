@@ -26,6 +26,7 @@ public class DistributedClient {
         } finally {
             zooKeeper.delete(root + "/" + this.thisPath, -1);
         }
+        System.out.println(Thread.currentThread().getName() + "执行完成");
     }
 
     public void lock(String connectionString) throws IOException, KeeperException, InterruptedException {
@@ -55,7 +56,6 @@ public class DistributedClient {
                                 e.printStackTrace();
                             }
                         }
-
                     }
                 }
             });
