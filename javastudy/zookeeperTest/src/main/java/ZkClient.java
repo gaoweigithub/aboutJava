@@ -1,4 +1,3 @@
-import com.google.common.base.Charsets;
 import org.apache.zookeeper.*;
 
 import java.io.IOException;
