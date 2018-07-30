@@ -6,6 +6,8 @@
 
 package treemap;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.TreeMap;
 
 /**
@@ -34,5 +36,12 @@ public class treemaptest {
         for (Integer key : tp.keySet()) {
             System.out.println(String.format("key:%s  value:%s", key, tp.get(key)));
         }
+
+        Map<String,Integer> mm = new HashMap<>();
+        mm.put("1",1);
+        mm.put("2",2);
+        mm.put("3",3);
+        mm.put("4",4);
+        System.out.println(mm.containsKey("1"));
     }
 }
