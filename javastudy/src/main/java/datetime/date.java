@@ -27,5 +27,9 @@ public class date {
         System.out.println("毫秒数:" + date.getTime() + ", 北京时间:" + bjSdf.format(date));
         System.out.println("毫秒数:" + date.getTime() + ", 东京时间:" + tokyoSdf.format(date));
         System.out.println("毫秒数:" + date.getTime() + ", 伦敦时间:" + londonSdf.format(date));
+
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("_yyyyMM");
+        System.out.println(simpleDateFormat.format(d1));
     }
 }

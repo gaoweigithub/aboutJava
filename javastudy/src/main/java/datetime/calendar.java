@@ -21,5 +21,7 @@ public class calendar {
         System.out.println(calendar.get(Calendar.HOUR));
         calendar.setTimeZone(TimeZone.getTimeZone("Asia/Tokyo"));
         System.out.println(calendar.get(Calendar.HOUR));
+
+
     }
 }
