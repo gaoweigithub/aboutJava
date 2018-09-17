@@ -1,4 +1,4 @@
-package 函数式编程;
+package 新特性.函数式编程;
 
 import java.util.stream.Stream;
 

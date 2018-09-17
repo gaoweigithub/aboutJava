@@ -17,7 +17,7 @@ public class Test {
         return stringThreadLocal.get();
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         final Test test = new Test();
 
         test.set();
