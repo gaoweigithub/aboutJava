@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="studyredis" />
         <module name="zookeeperTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javastudy" target="8" />
+      <module name="studyredis" target="8" />
       <module name="zookeeperTest" target="8" />
     </bytecodeTargetLevel>
   </component>
