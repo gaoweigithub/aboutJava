@@ -9,6 +9,8 @@ package dynamicproxyTest;
 import dynamicproxy.LiudehuaProxy;
 import dynamicproxy.Person;
 
+import java.util.HashMap;
+
 /**
  * (类型功能说明描述)
  * <p>
@@ -25,11 +27,14 @@ import dynamicproxy.Person;
  */
 public class ldhProxyTest {
     public static void main(String[] args) {
-        LiudehuaProxy proxy = new LiudehuaProxy();
-        Person p = proxy.getProxy();
-        String sr = p.sing("冰雨");
-        System.out.println(sr);
-        String dr = p.dance("江南style");
-        System.out.println(dr);
+        HashMap<String,String> hs = new HashMap<>(10);
+        System.out.println(hs.size());
+
+//        LiudehuaProxy proxy = new LiudehuaProxy();
+//        Person p = proxy.getProxy();
+//        String sr = p.sing("冰雨");
+//        System.out.println(sr);
+//        String dr = p.dance("江南style");
+//        System.out.println(dr);
     }
 }
