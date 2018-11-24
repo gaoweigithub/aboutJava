@@ -70,7 +70,18 @@
             <version>4.12</version>
             <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.51</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.ly</groupId>
+            <artifactId>tc.finance.soa.warp</artifactId>
+            <version>1.0.0.0</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
