@@ -20,26 +20,25 @@ public class test001 {
             int i = left;
             int j = right;
             int midvue = arr[mid];
-            while (i != j) {
-                while (arr[j] > midvue && i < j) {
+            while (i < j) {
+                while (arr[j] >= midvue && i < j) {
                     j--;
                 }
                 if (j > i) {
-                    while (arr[i] < midvue && i < j) {
+                    while (arr[i] <= midvue && i < j) {
                         i++;
                     }
                     if (i < j) {
-                        arr[j] = arr[i];
-                        j--;
+                        int tmp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = tmp;
                     }
                 }
-                while (arr[j] > midvue && j > i) {
-                    j--;
-                }
             }
+            System.out.println(i + ":" + j);
             arr[i] = midvue;
-            sort(arr, left, mid);
-            sort(arr, mid + 1, right);
+            sort(arr, left, i - 1);
+            sort(arr, i + 1, right);
         }
     }
 }
