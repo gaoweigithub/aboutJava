@@ -1,10 +1,10 @@
-package JUC.线程八锁;
+package JUC.锁.线程八锁;
 
 /**
- *  * 2. 新增 Thread.sleep() 给 getOne() ,打印? //one  two
+ * 7. 一个静态同步方法，一个非静态同步方法，两个 Number 对象?  //two  one
  */
-public class TestLock02 {
-    public synchronized void getOne(){
+public class TestLock07 {
+    public static synchronized void getOne(){
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -12,25 +12,27 @@ public class TestLock02 {
         }
         System.out.println("one");
     }
-
     public synchronized void getTwo(){
         System.out.println("two");
     }
 }
-class test02{
+
+class test07{
     public static void main(String[] args) {
-        final TestLock02 testLock = new TestLock02();
+        final TestLock07 testLock01 = new TestLock07();
+        final TestLock07 testLock02 = new TestLock07();
+
         new Thread(new Runnable() {
             @Override
             public void run() {
-                testLock.getOne();
+                testLock01.getOne();
             }
         }).start();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                testLock.getTwo();
+                testLock02.getTwo();
             }
         }).start();
     }

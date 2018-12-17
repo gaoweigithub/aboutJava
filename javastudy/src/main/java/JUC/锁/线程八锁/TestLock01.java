@@ -1,4 +1,4 @@
-package JUC.线程八锁;
+package JUC.锁.线程八锁;
 
 /**
  * * 1. 两个普通同步方法，两个线程，标准打印， 打印? //one  two

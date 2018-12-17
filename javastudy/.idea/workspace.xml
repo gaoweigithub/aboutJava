@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="归并排序">
-      <change afterPath="$PROJECT_DIR$/src/main/java/异常/ThrowEarlyCatchLater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/FinalizableReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/ReferenceQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/ReferenceQueueTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/WeakHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/WeakReferenceCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/弱引用001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/引用/软引用001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/DeadLockSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/BoundBufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/BoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/FairLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/ReentrantLockWithConditon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/TestReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/StampedSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/集合/testConcurrentHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/断言/assertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/断言/assertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/TestLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/TestLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/ReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/TestReadWriteLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程八锁/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/线程池/线程调度/TestScheduledThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/线程池/线程调度/TestScheduledThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/闭锁CountDownLatch/LatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/LatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/闭锁CountDownLatch/TestCoundDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/TestCoundDownLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUC/闭锁CountDownLatch/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/package-info.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeperTest/target/" />
@@ -56,7 +75,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="21" />
-          <entry key="java" value="58" />
+          <entry key="java" value="113" />
           <entry key="pom" value="2" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
@@ -65,21 +84,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="21" />
-          <entry key="JAVA" value="58" />
+          <entry key="JAVA" value="113" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5944" />
+          <entry key="java" value="8741" />
           <entry key="txt" value="8" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5944" />
+          <entry key="JAVA" value="8741" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="2" />
         </counts>
@@ -89,61 +108,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/软引用001.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/BoundBufferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="209">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/弱引用001.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/TestReadWriteLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="247">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/ReferenceQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/ReferenceQueueTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/WeakHashMapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/WeakReferenceCache.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/StampedSample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/SemaphoreDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/LatchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/DeadLockSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,45 +180,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/引用/FinalizableReferenceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/TestCoundDownLatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="209">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="849" column="16" selection-start-line="849" selection-start-column="16" selection-end-line="849" selection-end-column="16" />
-              <folding>
-                <element signature="e#32532#32533#0" expanded="true" />
-                <element signature="e#32566#32567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ref/ReferenceQueue.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+              <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ref/PhantomReference.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/Semaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-              <folding>
-                <element signature="e#2393#2394#0" expanded="true" />
-                <element signature="e#2427#2428#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="803">
+              <caret line="310" column="16" selection-start-line="310" selection-start-column="16" selection-end-line="310" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/StampedLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="510" column="16" selection-start-line="510" selection-start-column="16" selection-end-line="510" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -222,6 +242,7 @@
       <find>nextInt</find>
       <find>99</find>
       <find>22112</find>
+      <find>putval</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,19 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/Acceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/Reactor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/SocketReadHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/Test/Reactor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/singleThread/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/singleThread/TCPHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/singleThread/Acceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/singleThread/TCPReactor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/singleThread/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/singleThread/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/ThreadPool/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/ThreadPool/HandlerState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/ThreadPool/WriteState.java" />
         <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/ThreadPool/WorkState.java" />
         <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/ThreadPool/TCPHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/NIO/Reactor/ThreadPool/ReadState.java" />
@@ -281,6 +289,19 @@
         <option value="$PROJECT_DIR$/src/main/java/引用/WeakHashMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/引用/WeakReferenceCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/引用/FinalizableReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/集合/testConcurrentHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/FairLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/ReentrantLockWithConditon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/BoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/Lock同步锁/BoundBufferTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/线程池/线程调度/TestScheduledThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/ReadWriteLock读写锁/TestReadWriteLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/TestReadWriteLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/锁/StampedSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/锁/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/TestCoundDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/LatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/锁/DeadLockSample.java" />
       </list>
     </option>
   </component>
@@ -371,7 +392,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="引用" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="锁" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="锁" type="462c0819:PsiDirectoryNode" />
+              <item name="Lock同步锁" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="锁" type="462c0819:PsiDirectoryNode" />
+              <item name="ReadWriteLock读写锁" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="锁" type="462c0819:PsiDirectoryNode" />
+              <item name="线程八锁" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="锁" type="462c0819:PsiDirectoryNode" />
+              <item name="闭锁CountDownLatch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
@@ -396,11 +466,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="CountDownLatch&#9;FILE&#9;file://C:/WorkSpace/intellig/aboutJava/javastudy/src/main/java/JUC/闭锁CountDownLatch&#10;arrayutil&#9;PSI&#9;JAVA://com.sun.deploy.util.ArrayUtil&#10;stringutils&#9;PSI&#9;JAVA://com.sun.deploy.util.StringUtils" />
+    <property name="SearchEverywhereHistoryKey" value="PriorityBlockingQueue&#9;PSI&#9;JAVA://JUC.阻塞队列.TestPriorityBlockingQueue&#10;CountDownLatch&#9;FILE&#9;file://C:/WorkSpace/intellig/aboutJava/javastudy/src/main/java/JUC/闭锁CountDownLatch&#10;arrayutil&#9;PSI&#9;JAVA://com.sun.deploy.util.ArrayUtil&#10;stringutils&#9;PSI&#9;JAVA://com.sun.deploy.util.StringUtils" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../zzy/zby-order-schedule" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1870915" />
@@ -432,7 +502,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeakReferenceCache">
+  <component name="RunManager" selected="Application.DeadLockSample">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -448,13 +518,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="弱引用001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="引用.弱引用001" />
+    <configuration name="BoundBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.锁.Lock同步锁.BoundBufferTest" />
       <module name="javastudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="引用.*" />
+          <option name="PATTERN" value="JUC.锁.Lock同步锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLockSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.锁.DeadLockSample" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.锁.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,39 +564,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="引用.ReferenceQueueTest" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="引用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReferenceQueueTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="引用.ReferenceQueueTest2" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="引用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="内存溢出.方法区和运行时常量池溢出.runtimeConstantPoolOmm" />
       <module name="javastudy" />
       <option name="VM_PARAMETERS" value="-XX:PermSize=10M -XX:MaxPermSize=10M" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.锁.SemaphoreDemo" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -553,39 +623,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.锁.ReadWriteLock读写锁.TestReadWriteLock" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.锁.ReadWriteLock读写锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestScheduledThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.线程池.线程调度.TestScheduledThreadPool" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.线程池.线程调度.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestTenuringThreshold2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="垃圾回收.TestTenuringThreshold2" />
       <module name="javastudy" />
       <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15 -XX:+PrintTenuringDistribution" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeakHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="引用.WeakHashMapTest" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="引用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeakReferenceCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="引用.WeakReferenceCache" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="引用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -620,19 +690,19 @@
       <item itemvalue="Application.创建线程导致内存异常" />
       <item itemvalue="Application.StackSOFLeak" />
       <item itemvalue="Application.HeapOOMTest" />
-      <item itemvalue="Application.弱引用001" />
-      <item itemvalue="Application.ReferenceQueueTest" />
-      <item itemvalue="Application.ReferenceQueueTest2" />
-      <item itemvalue="Application.WeakHashMapTest" />
-      <item itemvalue="Application.WeakReferenceCache" />
+      <item itemvalue="Application.BoundBufferTest" />
+      <item itemvalue="Application.TestScheduledThreadPool" />
+      <item itemvalue="Application.TestReadWriteLock" />
+      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.DeadLockSample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeakReferenceCache" />
-        <item itemvalue="Application.WeakHashMapTest" />
-        <item itemvalue="Application.ReferenceQueueTest2" />
-        <item itemvalue="Application.ReferenceQueueTest" />
-        <item itemvalue="Application.弱引用001" />
+        <item itemvalue="Application.DeadLockSample" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.TestReadWriteLock" />
+        <item itemvalue="Application.TestScheduledThreadPool" />
+        <item itemvalue="Application.BoundBufferTest" />
       </list>
     </recent_temporary>
   </component>
@@ -687,7 +757,7 @@
       <workItem from="1542866946165" duration="811000" />
       <workItem from="1543045874130" duration="25015000" />
       <workItem from="1543646896640" duration="13589000" />
-      <workItem from="1544521271036" duration="11087000" />
+      <workItem from="1544521271036" duration="38582000" />
     </task>
     <task id="LOCAL-00001" summary="proxyadd">
       <created>1523463266445</created>
@@ -801,7 +871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544587207625</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="归并排序">
+      <created>1544603523823</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544603523823</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -837,7 +914,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309748000" />
+    <option name="totallyTimeSpent" value="337243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +929,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -862,7 +939,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" x="599" y="483" width="1014" height="542" id="Run" order="2" type="WINDOWED" weight="0.44630873" />
+      <window_info anchor="bottom" x="662" y="296" width="1014" height="542" id="Run" order="2" weight="0.29208472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32887402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -870,7 +947,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="SBT Execute" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32850778" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3277592" />
       <window_info anchor="bottom" id="SBT Console" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32664436" />
@@ -890,6 +967,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1077,86 +1180,62 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.pom">
+    <entry file="file://$PROJECT_DIR$/src/main/java/引用/WeakReferenceCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="399">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/引用/FinalizableReferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/META-INF/maven/com.ly/tc.finance.soa.warp/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/META-INF/maven/com.ly/tc.finance.soa.warp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/jsonutils/GsonCustomerDateJsonSerializer.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ActionListen/TimePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/jsonutils/JsonHelper.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BitMapTest/test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/jsonutils/StringSmallUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/BeanDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/constant/SOAConstant.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/OtherSampleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="62" />
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/entities/BaseRequestEntity.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/排序/quicksort/test001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" selection-start-line="10" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/entities/RequestHeaderEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/entities/ResponseHeaderEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gagaga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hahah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="190">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1164,34 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/entities/SOAResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/enums/ProtocolVersion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ly/tc.finance.soa.warp/1.0.0.0/tc.finance.soa.warp-1.0.0.0.jar!/com/ly/finance/http/SOAHttpHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/链表/study001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1258,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/链表/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="152">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#140#141#0" expanded="true" />
@@ -1218,221 +1269,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/排序/quicksort/test001.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/链表/study001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="475">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程八锁/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock01.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="233">
+          <caret line="585" column="13" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程八锁/TestLock04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/泛型/擦除.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/泛型/GenericTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/阻塞队列/TestPriorityBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/阻塞队列/TestArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
-            <element signature="e#73#74#0" expanded="true" />
-            <element signature="e#97#98#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/语法糖/test001.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程池/TestThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/断言/assertTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程按序交替/AlternateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="-266">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/内存溢出/java堆溢出/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/内存溢出/虚拟机栈和本地方法栈/JavaVMStackSOF.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程按序交替/TestABCAlternate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/异常/AutoClosableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/线程八锁/TestLock01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/生产者消费者/TestProductorAndConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/匿名内部类/AnonymousInnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/匿名内部类/TalkingClock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/异常/TestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/垃圾回收/CleaningExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/异常/ThrowEarlyCatchLater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/finaltest/finaltest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/非静态内部类/InnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/math/BigInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/SelfNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bignum/bignumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/测试/testsingleon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/软引用001.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="119">
+          <caret line="295" column="49" lean-forward="true" selection-start-line="295" selection-start-column="49" selection-end-line="295" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/弱引用001.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="443">
+          <caret line="1188" column="43" lean-forward="true" selection-start-line="1188" selection-start-column="43" selection-end-line="1188" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ref/PhantomReference.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/静态内部类/StaticInnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-          <folding>
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2427#2428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ref/ReferenceQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/ReferenceQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/ReferenceQueueTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="849" column="16" selection-start-line="849" selection-start-column="16" selection-end-line="849" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="e#32532#32533#0" expanded="true" />
             <element signature="e#32566#32567#0" expanded="true" />
@@ -1440,27 +1412,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/WeakHashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/内部类/静态内部类/ArrayAlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/WeakReferenceCache.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/集合/testConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/引用/FinalizableReferenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="209">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/TestLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="255" column="11" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="11" />
+          <folding>
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/FairLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/ReentrantLockWithConditon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/线程池/线程调度/TestScheduledThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/BoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/Lock同步锁/BoundBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/ReadWriteLock读写锁/TestReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/StampedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="510" column="16" selection-start-line="510" selection-start-column="16" selection-end-line="510" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/StampedSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="310" column="16" selection-start-line="310" selection-start-column="16" selection-end-line="310" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/DeadLockSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/LatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/闭锁CountDownLatch/TestCoundDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>

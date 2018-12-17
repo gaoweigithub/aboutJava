@@ -1,4 +1,4 @@
-package JUC.ReadWriteLock读写锁;
+package JUC.锁.ReadWriteLock读写锁;
 /**
  * ReadWriteLock 维护了一对相关的锁，一个用于只读操作，另一个用于写入操作。
  * 只要没有writer，读取锁可以由多个reader 线程同时保持。写入锁是独占的。

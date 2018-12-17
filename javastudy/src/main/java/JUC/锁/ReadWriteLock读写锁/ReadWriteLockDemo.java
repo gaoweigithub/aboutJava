@@ -1,4 +1,4 @@
-package JUC.ReadWriteLock读写锁;
+package JUC.锁.ReadWriteLock读写锁;
 
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

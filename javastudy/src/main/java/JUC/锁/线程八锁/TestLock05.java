@@ -1,9 +1,9 @@
-package JUC.线程八锁;
+package JUC.锁.线程八锁;
 
 /**
- * 7. 一个静态同步方法，一个非静态同步方法，两个 Number 对象?  //two  one
+ *  * 5. 修改 getOne() 为静态同步方法，打印?  //two   one
  */
-public class TestLock07 {
+public class TestLock05 {
     public static synchronized void getOne(){
         try {
             Thread.sleep(3000);
@@ -17,22 +17,21 @@ public class TestLock07 {
     }
 }
 
-class test07{
+class test05{
     public static void main(String[] args) {
-        final TestLock07 testLock01 = new TestLock07();
-        final TestLock07 testLock02 = new TestLock07();
+        final TestLock05 testLock = new TestLock05();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                testLock01.getOne();
+                testLock.getOne();
             }
         }).start();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                testLock02.getTwo();
+                testLock.getTwo();
             }
         }).start();
     }

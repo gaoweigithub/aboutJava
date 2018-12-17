@@ -1,4 +1,4 @@
-package JUC.线程八锁;
+package JUC.锁.线程八锁;
 
 /**
  *  * 3. 新增普通方法 getThree() , 打印? //three  one   two

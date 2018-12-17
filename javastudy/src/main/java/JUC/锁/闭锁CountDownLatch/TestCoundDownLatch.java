@@ -1,4 +1,4 @@
-package JUC.闭锁CountDownLatch;
+package JUC.锁.闭锁CountDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 

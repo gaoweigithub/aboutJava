@@ -11,18 +11,14 @@ public class TestScheduledThreadPool {
         /**
          * 固定时间间隔执行线程
          */
-//        for (int i = 0; i < 5; i++) {
-//            Future<Long> result = pool.schedule(new Callable<Long>() {
-//                @Override
-//                public Long call() throws Exception {
-//                    Long num = new Date().getTime();
-//                    return num;
-//                }
-//            }, 1, TimeUnit.SECONDS);
-//
-//            System.out.println(result.get() / 1000);
-//        }
-//        pool.shutdown();
+        for (;;) {
+            Future<Long> result = pool.schedule(() -> {
+                Long num = new Date().getTime();
+                return num;
+            }, 100, TimeUnit.MILLISECONDS);
+
+            System.out.println(result.get() / 1000);
+        }
 
 
         /**
@@ -42,14 +38,14 @@ public class TestScheduledThreadPool {
         /**
          * 固定延迟执行线程
          */
-        for (int i = 0; i < 5; i++) {
-            pool.scheduleWithFixedDelay(new Runnable() {
-                @Override
-                public void run() {
-                    long time = new Date().getTime();
-                    System.out.println(time / 1000 + "  " + time % 1000);
-                }
-            }, 1, 1, TimeUnit.SECONDS);
-        }
+//        for (int i = 0; i < 5; i++) {
+//            pool.scheduleWithFixedDelay(new Runnable() {
+//                @Override
+//                public void run() {
+//                    long time = new Date().getTime();
+//                    System.out.println(time / 1000 + "  " + time % 1000);
+//                }
+//            }, 1, 1, TimeUnit.SECONDS);
+//        }
     }
 }

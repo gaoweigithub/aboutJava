@@ -1,4 +1,4 @@
-package JUC.线程八锁;
+package JUC.锁.线程八锁;
 /**
  * • 一个对象里面如果有多个synchronized方法,某一个时刻内,只要一个线程去调用 其中的一个synchronized方法了,其它的线程都只能等待,换句话说,某一个时刻 内,只能有唯一一个线程去访问这些synchronized方法
  * • 锁的是当前对象this,被锁定后,其它的线程都不能进入到当前对象的其它的 synchronized方法

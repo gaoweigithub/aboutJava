@@ -1,4 +1,4 @@
-package JUC.线程八锁;
+package JUC.锁.线程八锁;
 
 /**
  * 8. 两个静态同步方法，两个 Number 对象?   //one  two

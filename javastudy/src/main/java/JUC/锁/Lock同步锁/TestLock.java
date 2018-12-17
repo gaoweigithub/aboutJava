@@ -1,4 +1,4 @@
-package JUC.Lock同步锁;
+package JUC.锁.Lock同步锁;
 
 public class TestLock {
     public static void main(String[] args) {
