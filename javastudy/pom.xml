@@ -23,6 +23,7 @@
     <modules>
         <module>zookeeperTest</module>
         <module>studyredis</module>
+        <module>elasticsearch</module>
     </modules>
 
     <dependencies>
