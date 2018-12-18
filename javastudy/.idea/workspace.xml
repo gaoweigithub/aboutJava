@@ -462,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestPriorityBlockingQueue">
+  <component name="RunManager" selected="Application.TestSynchronousQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -658,11 +658,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSynchronousQueue" />
         <item itemvalue="Application.TestPriorityBlockingQueue" />
         <item itemvalue="Application.TestLinkedBlockingQueue" />
         <item itemvalue="Application.TestDelayQueue" />
         <item itemvalue="Application.TestArrayBlockingQueue" />
-        <item itemvalue="Application.TestSynchronousQueue" />
       </list>
     </recent_temporary>
   </component>
