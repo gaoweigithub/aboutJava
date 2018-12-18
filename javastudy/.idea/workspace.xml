@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="回环栅栏的学习相关">
-      <change afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESHotelIndexEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESIndexInsertRsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESShardsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/util/HttpClientHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/util/HttpRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyredis/src/main/java/TestRateLimitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="Redis限流器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javastudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javastudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studyredis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studyredis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studyredis/studyredis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studyredis/studyredis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeperTest/zookeeperTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeperTest/zookeeperTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gagaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gagaga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyredis/src/main/java/TestRateLimitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyredis/src/main/java/TestRateLimitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeperTest/target/" />
@@ -69,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="22" />
-          <entry key="java" value="174" />
+          <entry key="java" value="175" />
           <entry key="pom" value="2" />
           <entry key="properties" value="1" />
           <entry key="xml" value="8" />
@@ -78,22 +63,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="22" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="175" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10876" />
-          <entry key="txt" value="23" />
+          <entry key="java" value="11002" />
+          <entry key="txt" value="31" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10876" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="JAVA" value="11002" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
@@ -105,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/studyredis/src/main/java/testRedisLock/RedisLock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="847">
-              <caret line="72" column="64" lean-forward="true" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+              <caret line="72" column="64" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -113,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/studyredis/src/main/java/TestRateLimitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="361">
+              <caret line="46" column="53" lean-forward="true" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2543#2544#0" expanded="true" />
@@ -125,10 +110,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gagaga.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="755">
-              <caret line="103" column="67" lean-forward="true" selection-start-line="103" selection-start-column="67" selection-end-line="103" selection-end-column="67" />
+              <caret line="103" column="67" selection-start-line="103" selection-start-column="67" selection-end-line="103" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -142,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESIndexInsertRsp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#644#645#0" expanded="true" />
                 <element signature="e#674#675#0" expanded="true" />
@@ -197,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/main/java/数据结构/排序/quicksort/test002.java" />
         <option value="$PROJECT_DIR$/src/main/java/数据结构/排序/quicksort/test001.java" />
         <option value="$PROJECT_DIR$/src/test/java/hahah.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gagaga.java" />
         <option value="$PROJECT_DIR$/src/main/java/泛型/擦除.java" />
         <option value="$PROJECT_DIR$/src/main/java/泛型/GenericTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/语法糖/test001.java" />
@@ -237,6 +230,7 @@
         <option value="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESIndexInsertRsp.java" />
         <option value="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESRestClient.java" />
         <option value="$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESHotelIndexEnum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gagaga.java" />
         <option value="$PROJECT_DIR$/studyredis/src/main/java/TestRateLimitor.java" />
       </list>
     </option>
@@ -316,25 +310,17 @@
             <path>
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,51 +328,15 @@
             <path>
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="studyredis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="studyredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="studyredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="studyredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="studyredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testRedisLock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,20 +438,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.锁.CyclicBarrier.Test3" />
-      <module name="javastudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUC.锁.CyclicBarrier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUC.锁.CyclicBarrier.Test4" />
       <module name="javastudy" />
@@ -566,6 +502,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gagaga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gagaga" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="staticInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="初始化.staticInit" />
       <module name="javastudy" />
@@ -618,19 +562,19 @@
       <item itemvalue="Application.创建线程导致内存异常" />
       <item itemvalue="Application.StackSOFLeak" />
       <item itemvalue="Application.HeapOOMTest" />
-      <item itemvalue="Application.Test3" />
       <item itemvalue="Application.Test4" />
       <item itemvalue="Application.testLock" />
       <item itemvalue="Application.staticInit" />
       <item itemvalue="Application.TestRateLimitor" />
+      <item itemvalue="Application.gagaga" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestRateLimitor" />
+        <item itemvalue="Application.gagaga" />
         <item itemvalue="Application.staticInit" />
         <item itemvalue="Application.testLock" />
         <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -685,7 +629,7 @@
       <workItem from="1542866946165" duration="811000" />
       <workItem from="1543045874130" duration="25015000" />
       <workItem from="1543646896640" duration="13589000" />
-      <workItem from="1544521271036" duration="61721000" />
+      <workItem from="1544521271036" duration="64581000" />
     </task>
     <task id="LOCAL-00001" summary="proxyadd">
       <created>1523463266445</created>
@@ -820,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545028470693</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Redis限流器">
+      <created>1545113873547</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1545113873547</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,7 +807,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360382000" />
+    <option name="totallyTimeSpent" value="363242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,7 +819,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
@@ -951,7 +902,8 @@
     <MESSAGE value="归并排序" />
     <MESSAGE value="juc相关学习" />
     <MESSAGE value="回环栅栏的学习相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="回环栅栏的学习相关" />
+    <MESSAGE value="Redis限流器" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis限流器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1140,17 +1092,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="434" column="17" lean-forward="true" selection-start-line="434" selection-start-column="17" selection-end-line="434" selection-end-column="17" />
-          <folding>
-            <element signature="e#9581#9582#0" expanded="true" />
-            <element signature="e#9616#9617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JUC/锁/CyclicBarrier/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1444,7 +1385,7 @@
     <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESIndexInsertRsp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#644#645#0" expanded="true" />
             <element signature="e#674#675#0" expanded="true" />
@@ -1505,14 +1446,14 @@
     <entry file="file://$PROJECT_DIR$/studyredis/src/main/java/testRedisLock/RedisLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="847">
-          <caret line="72" column="64" lean-forward="true" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+          <caret line="72" column="64" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
-          <caret line="103" column="67" lean-forward="true" selection-start-line="103" selection-start-column="67" selection-end-line="103" selection-end-column="67" />
+          <caret line="103" column="67" selection-start-line="103" selection-start-column="67" selection-end-line="103" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
@@ -1521,10 +1462,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gagaga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/studyredis/src/main/java/TestRateLimitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="361">
+          <caret line="46" column="53" lean-forward="true" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2543#2544#0" expanded="true" />

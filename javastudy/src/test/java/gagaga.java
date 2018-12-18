@@ -1,12 +1,12 @@
+import datetime.date;
+
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 
 public class gagaga {
     public static void main(String[] args) {
-        System.out.println(new Date().getTime());
-        Date d = new Date();
-
-        Date dd = new Date();
-
+        SimpleDateFormat sdf=  new SimpleDateFormat("yyyy-MM-ddTHH:mm:ss");
+        System.out.println(sdf.format(new date()));
     }
 }

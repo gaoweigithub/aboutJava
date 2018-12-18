@@ -38,14 +38,19 @@ public class TestRateLimitor {
             interQueryData.setTime(new Date());
             interQueryData.setThreadName(Thread.currentThread().getName());
             interQueryData.setSpent(random.nextInt(100) + 100);
-            esClient.IndexInsert(ESHotelIndexEnum.gaowei, JSON.toJSONStringWithDateFormat(interQueryData, "yyyy-MM-dd HH:mm:ss"));
+//            esClient.IndexInsert(ESHotelIndexEnum.gaowei, JSON.toJSONStringWithDateFormat(interQueryData, "yyyy-MM-dd HH:mm:ss"));
+            esClient.IndexInsert(ESHotelIndexEnum.gaowei, JSON.toJSONString(interQueryData));
         }
     }
 
     private static boolean getToken() {
         long nowSecond = new Date().getTime() / 1000;
         String key = String.format(_key_format, nowSecond);
-        if (redis.incr(key) <= _max) {
+        long value = redis.incr(key);
+        if (value == 1) {
+            redis.expire(key, 1);
+        }
+        if (value <= _max) {
             //success
             return true;
         } else {
