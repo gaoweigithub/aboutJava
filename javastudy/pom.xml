@@ -8,14 +8,30 @@
     <artifactId>javalearn</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <name>javalearn</name>
+    <description>学习的项目</description>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <Premain-Class>demo.App</Premain-Class>
+                            <Main-Class>agentDemo.App</Main-Class>
+                        </manifestEntries>
+                    </archive>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
+                    <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
@@ -24,6 +40,7 @@
         <module>zookeeperTest</module>
         <module>studyredis</module>
         <module>elasticsearch</module>
+        <module>javaAgent</module>
     </modules>
 
     <dependencies>
@@ -78,10 +95,15 @@
             <version>1.2.51</version>
         </dependency>
 
+        <!--<dependency>-->
+        <!--<groupId>com.ly</groupId>-->
+        <!--<artifactId>tc.finance.soa.warp</artifactId>-->
+        <!--<version>1.0.0.0</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.ly</groupId>
-            <artifactId>tc.finance.soa.warp</artifactId>
-            <version>1.0.0.0</version>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.23.1-GA</version>
         </dependency>
     </dependencies>
     <repositories>
