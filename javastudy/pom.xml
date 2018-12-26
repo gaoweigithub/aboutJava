@@ -41,6 +41,7 @@
         <module>studyredis</module>
         <module>elasticsearch</module>
         <module>javaAgent</module>
+        <module>springtest</module>
     </modules>
 
     <dependencies>

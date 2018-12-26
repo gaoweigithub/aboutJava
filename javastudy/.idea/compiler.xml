@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="elasticsearch" />
         <module name="javaAgent" />
+        <module name="springtest" />
         <module name="studyredis" />
         <module name="zookeeperTest" />
       </profile>
@@ -16,6 +17,7 @@
       <module name="elasticsearch" target="8" />
       <module name="javaAgent" target="1.8" />
       <module name="javastudy" target="8" />
+      <module name="springtest" target="8" />
       <module name="studyredis" target="8" />
       <module name="zookeeperTest" target="8" />
     </bytecodeTargetLevel>
