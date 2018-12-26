@@ -30,4 +30,5 @@
             </list>
         </property>
     </bean>
+    <bean id="welcomegw" class="com.gw.common.Welcome"></bean>
 </beans>

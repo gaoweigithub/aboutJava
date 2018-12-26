@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Hello {
     private String name;
 
-    @Bean(name = "wahahah")
+    @Bean
     private Hello getMyHello() {
         Hello hello = new Hello();
         hello.setName("gaowei");
