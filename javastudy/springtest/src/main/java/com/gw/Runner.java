@@ -4,6 +4,7 @@ import com.gw.common.Hello;
 import com.gw.common.Student;
 import com.gw.common.Welcome;
 import com.gw.custome.ScanClass1;
+import com.gw.service.UserService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Runner {
@@ -22,5 +23,9 @@ public class Runner {
 
         ScanClass1 scanClass1 = context.getBean(ScanClass1.class);
         scanClass1.print();
+
+        UserService userService = context.getBean(UserService.class);
+        int ii = userService.countAll();
+        System.out.println(ii);
     }
 }
