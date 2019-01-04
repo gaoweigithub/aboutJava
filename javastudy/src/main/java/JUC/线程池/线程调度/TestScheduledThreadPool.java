@@ -7,7 +7,6 @@ public class TestScheduledThreadPool {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ScheduledExecutorService pool = Executors.newScheduledThreadPool(5);
 
-
         /**
          * 固定时间间隔执行线程
          */

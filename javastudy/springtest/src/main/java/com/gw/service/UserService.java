@@ -7,5 +7,5 @@ import java.util.Map;
 public interface UserService {
     public int countAll();
     public void insertUser(User user);
-    public void update_insert(Map map, User user);
+    public void update_insert(Map map, User user) throws Exception;
 }

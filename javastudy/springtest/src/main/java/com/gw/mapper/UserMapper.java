@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Map;
 
-@Service("userMapper")
+@Service
 public interface UserMapper {
     public int countAll();
     public void insertUser(User user);

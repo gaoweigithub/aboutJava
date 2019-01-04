@@ -1,5 +1,6 @@
 package com.gw.dao.impl;
 
+import com.google.zxing.BinaryBitmap;
 import com.gw.dao.inter.UserDao;
 import com.gw.mapper.UserMapper;
 import com.gw.pojo.User;
