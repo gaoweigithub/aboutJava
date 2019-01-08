@@ -1,11 +1,12 @@
 package com.gw.dao.impl;
 
-import com.google.zxing.BinaryBitmap;
 import com.gw.dao.inter.UserDao;
 import com.gw.mapper.UserMapper;
 import com.gw.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
@@ -19,6 +20,7 @@ public class UserDaoImpl implements UserDao {
         return this.userMapper.countAll();
     }
 
+    @Transactional(propagation = Propagation.REQUIRED)
     public void insertUser(User user) {
         this.userMapper.insertUser(user);
     }
@@ -31,11 +33,15 @@ public class UserDaoImpl implements UserDao {
         return this.userMapper.getById(id);
     }
 
-    public void deleteUser(String id) {
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void deleteUser(String id) throws Exception {
         this.userMapper.deleteUser(id);
+        throw new Exception();
     }
 
+    @Transactional(propagation = Propagation.REQUIRED)
     public void updateUser(Map<String, Object> map) {
         this.userMapper.updateUser(map);
+//        throw new RuntimeException("aaaa");
     }
 }

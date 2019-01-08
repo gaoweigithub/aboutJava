@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gw.mapper.User2Mapper">
+
+    <parameterMap type="com.gw.pojo.User2" id="parameterMapUser">
+        <parameter property="id"/>
+        <parameter property="name"/>
+    </parameterMap>
+
+    <resultMap type="com.gw.pojo.User2" id="resultMapUser">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <insert id="insert" parameterMap="parameterMapUser">
+INSERT INTO user2(id,name)
+VALUES(?,?)
+</insert>
+    <select id="selectByPrimaryKey" resultMap="resultMapUser" parameterType="hashmap">
+select * c from user2 where id = #{id};
+</select>
+</mapper>
+

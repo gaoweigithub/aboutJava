@@ -18,34 +18,34 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
 
     <!-- 加载配置文件 -->
-    <context:property-placeholder location="classpath:jdbc.properties,classpath:application.properties" />
+    <context:property-placeholder location="classpath:jdbc.properties,classpath:application.properties"/>
 
     <!--指定spring注入层 -->
-    <context:component-scan base-package="com.gw" />
+    <context:component-scan base-package="com.gw"/>
 
     <!-- 数据库连接池 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
           init-method="init" destroy-method="close">
-        <property name="driverClassName" value="${jdbc.driver}" />
-        <property name="url" value="${jdbc.url}" />
-        <property name="username" value="${jdbc.user}" />
-        <property name="password" value="${jdbc.password}" />
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
 
-        <property name="filters" value="stat" />
+        <property name="filters" value="stat"/>
 
-        <property name="maxActive" value="20" />
-        <property name="initialSize" value="1" />
-        <property name="maxWait" value="60000" />
-        <property name="minIdle" value="1" />
-        <property name="timeBetweenEvictionRunsMillis" value="60000" />
-        <property name="minEvictableIdleTimeMillis" value="300000" />
-        <property name="validationQuery" value="SELECT 'x'" />
-        <property name="testWhileIdle" value="true" />
-        <property name="testOnBorrow" value="false" />
-        <property name="testOnReturn" value="false" />
-        <property name="poolPreparedStatements" value="true" />
+        <property name="maxActive" value="20"/>
+        <property name="initialSize" value="1"/>
+        <property name="maxWait" value="60000"/>
+        <property name="minIdle" value="1"/>
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+        <property name="validationQuery" value="SELECT 'x'"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+        <property name="poolPreparedStatements" value="true"/>
         <property name="maxPoolPreparedStatementPerConnectionSize"
-                  value="50" />
+                  value="50"/>
     </bean>
     <!-- ================================事务相关控制================================================= -->
 
@@ -55,9 +55,9 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
     <tx:advice id="userTxAdvice" transaction-manager="transactionManager">
         <tx:attributes>
-            <tx:method name="delete*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.Exception" no-rollback-for="java.lang.RuntimeException"/>
-            <tx:method name="insert*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.Exception" />
-            <tx:method name="update*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.Exception" />
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="insert*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
             <tx:method name="find*" propagation="SUPPORTS"/>
             <tx:method name="get*" propagation="SUPPORTS"/>
             <tx:method name="select*" propagation="SUPPORTS"/>
@@ -66,17 +66,31 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
     <aop:config>
         <aop:pointcut id="pc"
-                      expression="execution(public * com.gw.service.*.*(..))" />
-        <aop:advisor pointcut-ref="pc" advice-ref="userTxAdvice" />
+                      expression="execution(public * com.gw.service.*.*(..))"/>
+        <aop:advisor pointcut-ref="pc" advice-ref="userTxAdvice"/>
     </aop:config>
 
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
-        <property name="configLocation" value="classpath:spring/MyBatis-Configuration.xml" />
+        <property name="dataSource" ref="dataSource"/>
+        <!--<property name="configLocation" value="classpath:spring/MyBatis-Configuration.xml"/>-->
+        <property name="mapperLocations" value="classpath:mapper/**.xml"/>
     </bean>
 
-    <bean class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="com.gw.mapper.UserMapper"/>
-        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    <!--begin配置mapper：-->
+
+    <!--第一种:-->
+    <!--<bean class="org.mybatis.spring.mapper.MapperFactoryBean">-->
+    <!--<property name="mapperInterface" value="com.gw.mapper.UserMapper"/>-->
+    <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
+    <!--</bean>-->
+
+    <!--第二种:-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.gw.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
+    <!--end配置mapper：-->
+
 </beans>

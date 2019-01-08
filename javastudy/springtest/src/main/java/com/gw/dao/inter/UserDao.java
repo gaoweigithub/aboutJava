@@ -10,6 +10,6 @@ public interface UserDao {
     public void insertUser(User user);
     public List<User> getAllUser();
     public User getById(String id);
-    public void deleteUser(String id);
+    public void deleteUser(String id) throws Exception;
     public void updateUser(Map<String,Object> map);
 }
