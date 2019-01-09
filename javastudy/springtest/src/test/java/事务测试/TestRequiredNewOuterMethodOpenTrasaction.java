@@ -1,3 +1,5 @@
+package 事务测试;
+
 import com.gw.component.mybatis事务.RequiredNewOuterMethodOpenTrasaction;
 import org.junit.Before;
 import org.junit.Test;

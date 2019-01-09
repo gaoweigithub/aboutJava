@@ -1,3 +1,5 @@
+package 事务测试;
+
 import com.gw.component.mybatis事务.RequiredOuterMethodCloseTrasaction;
 import com.gw.component.mybatis事务.RequiredOuterMethodOpenTrasaction;
 import org.junit.Before;
