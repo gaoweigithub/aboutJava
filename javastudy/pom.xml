@@ -42,9 +42,19 @@
         <module>elasticsearch</module>
         <module>javaAgent</module>
         <module>springtest</module>
+        <module>aboutNetty</module>
     </modules>
 
     <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>

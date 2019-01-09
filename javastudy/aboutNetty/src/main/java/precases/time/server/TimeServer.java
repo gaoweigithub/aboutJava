@@ -4,7 +4,7 @@
  * Copyrights (C) 2018保留所有权利
  */
 
-package nettyStudy;
+package precases.time.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -29,10 +29,10 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * @version 1.0
  * @since JDK1.7
  */
-public class ResponseServer {
+public class TimeServer {
     private int port;
 
-    public ResponseServer(int port) {
+    public TimeServer(int port) {
         super();
         this.port = port;
     }
@@ -48,7 +48,7 @@ public class ResponseServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(new ResponseServerHandler());
+                            ch.pipeline().addLast(new TimeServerHandler());
                         }
                     })
                     .option(ChannelOption.SO_BACKLOG, 128)
@@ -69,7 +69,7 @@ public class ResponseServer {
         else{
             port = 8080;
         }
-        new ResponseServer(port).run();
+        new TimeServer(port).run();
         System.out.println("server:run()");
     }
 }
