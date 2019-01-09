@@ -39,4 +39,17 @@ public class User2ServiceImpl implements User2Service {
         user2Mapper.insert(user2);
         throw new RuntimeException();
     }
+
+    @Override
+    @Transactional(propagation = Propagation.NESTED)
+    public void addNested(User2 user1) {
+        user2Mapper.insert(user1);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.NESTED)
+    public void addNestedException(User2 user2) {
+        user2Mapper.insert(user2);
+        throw new RuntimeException();
+    }
 }

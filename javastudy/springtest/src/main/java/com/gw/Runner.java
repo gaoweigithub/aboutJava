@@ -11,7 +11,6 @@ public class Runner {
     public static void main(String[] args) throws Exception {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/spring-main.xml");
 
-
         Hello hh = (Hello) context.getBean("getMyHello");
         System.out.println(hh.getName());
 
@@ -28,7 +27,6 @@ public class Runner {
         int ii = userService.countAll();
         System.out.println(ii);
 
-
-
+        for (;;);
     }
 }

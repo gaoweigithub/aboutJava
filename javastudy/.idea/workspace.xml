@@ -4,33 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/common/Hello.java" line="2" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="去除敏感信息">
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodCloseTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodOpenTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredOuterMethodCloseTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredOuterMethodOpenTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/mapper/User1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/mapper/User2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/pojo/User1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/pojo/User2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/resources/mapper/UserDaoMapper1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/resources/mapper/UserDaoMapper2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodCloseTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodOpenTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/test/java/TestRequiredOuterMethodCloseTrasaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/test/java/TestRequiredOuterMethodOpenTrasaction.java" afterDir="false" />
+    <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="事务学习">
+      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodCloseTrasaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodOpenTrasaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodCloseTrasaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodOpenTrasaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/dao/inter/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/dao/inter/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeperTest/target/" />
@@ -86,7 +70,7 @@
         <counts>
           <entry key="class" value="41" />
           <entry key="iml" value="1" />
-          <entry key="java" value="381" />
+          <entry key="java" value="389" />
           <entry key="png" value="2" />
           <entry key="pom" value="4" />
           <entry key="properties" value="17" />
@@ -98,7 +82,7 @@
           <entry key="CLASS" value="41" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="381" />
+          <entry key="JAVA" value="389" />
           <entry key="Properties" value="17" />
           <entry key="XML" value="61" />
         </counts>
@@ -106,16 +90,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="50" />
-          <entry key="java" value="19107" />
+          <entry key="java" value="19566" />
           <entry key="properties" value="80" />
-          <entry key="txt" value="70" />
+          <entry key="txt" value="74" />
           <entry key="xml" value="698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19107" />
-          <entry key="PLAIN_TEXT" value="120" />
+          <entry key="JAVA" value="19566" />
+          <entry key="PLAIN_TEXT" value="124" />
           <entry key="Properties" value="80" />
           <entry key="XML" value="698" />
         </counts>
@@ -125,55 +109,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springtest/src/main/resources/spring/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodCloseTrasaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodCloseTrasaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodOpenTrasaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,8 +135,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="657">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodCloseTrasaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodOpenTrasaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodOpenTrasaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodCloseTrasaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,44 +191,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="133">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodOpenTrasaction.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="551">
+              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredOuterMethodCloseTrasaction.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar!/org/springframework/transaction/annotation/Propagation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestRequiredOuterMethodOpenTrasaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="548">
+              <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -276,6 +260,7 @@
       <find>userService</find>
       <find>transaction_exception_required_required</find>
       <find>transaction_required_required_exception</find>
+      <find>Completing transaction</find>
     </findStrings>
     <replaceStrings>
       <replace>@Test</replace>
@@ -287,10 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/mapper/UserDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/dao/inter/UserDao.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/resources/mapper/UserDaoMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/MyFullBitMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/BigDataSort.java" />
@@ -322,22 +303,26 @@
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/mapper/User1Mapper.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/resources/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/外围方法不开启事务.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/testTransaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/OuterMethodCloseTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/OuterMethodCloseTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/TestOuterMethodCloseTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/OuterMethodOpenTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/TestOuterMethodOpenTrasaction.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/TestRequiredOuterMethodOpenTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodCloseTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodCloseTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodOpenTrasaction.java" />
         <option value="$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodOpenTrasaction.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodCloseTrasaction.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodCloseTrasaction.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodOpenTrasaction.java" />
+        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java" />
+        <option value="$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodOpenTrasaction.java" />
       </list>
     </option>
   </component>
@@ -757,7 +742,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_exception_required_requiresNew_requiresNew">
+  <component name="RunManager" selected="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception_try">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -787,6 +772,20 @@
       <module name="javastudy" />
       <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+HeapDumpOnOutOfMemoryError" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gw.Runner" />
+      <module name="springtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -851,55 +850,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRequiredNewOuterMethodCloseTrasaction.notransaction_exception_requiresNew_requiresNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNestedOuterMethodCloseTrasaction.notransaction_nested_nested_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springtest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRequiredNewOuterMethodCloseTrasaction" />
-      <option name="METHOD_NAME" value="notransaction_exception_requiresNew_requiresNew" />
+      <option name="MAIN_CLASS_NAME" value="TestNestedOuterMethodCloseTrasaction" />
+      <option name="METHOD_NAME" value="notransaction_nested_nested_exception" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRequiredNewOuterMethodCloseTrasaction.notransaction_requiresNew_requiresNew_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNestedOuterMethodOpenTrasaction.transaction_exception_nested_nested" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springtest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRequiredNewOuterMethodCloseTrasaction" />
-      <option name="METHOD_NAME" value="notransaction_requiresNew_requiresNew_exception" />
+      <option name="MAIN_CLASS_NAME" value="TestNestedOuterMethodOpenTrasaction" />
+      <option name="METHOD_NAME" value="transaction_exception_nested_nested" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_exception_required_requiresNew_requiresNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springtest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRequiredNewOuterMethodOpenTrasaction" />
-      <option name="METHOD_NAME" value="transaction_exception_required_requiresNew_requiresNew" />
+      <option name="MAIN_CLASS_NAME" value="TestNestedOuterMethodOpenTrasaction" />
+      <option name="METHOD_NAME" value="transaction_nested_nested_exception" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception_try" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springtest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRequiredNewOuterMethodOpenTrasaction" />
-      <option name="METHOD_NAME" value="transaction_required_requiresNew_requiresNew_exception" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception_try" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springtest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRequiredNewOuterMethodOpenTrasaction" />
-      <option name="METHOD_NAME" value="transaction_required_requiresNew_requiresNew_exception_try" />
+      <option name="MAIN_CLASS_NAME" value="TestNestedOuterMethodOpenTrasaction" />
+      <option name="METHOD_NAME" value="transaction_nested_nested_exception_try" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -930,19 +918,19 @@
       <item itemvalue="Application.创建线程导致内存异常" />
       <item itemvalue="Application.StackSOFLeak" />
       <item itemvalue="Application.HeapOOMTest" />
-      <item itemvalue="JUnit.TestRequiredNewOuterMethodCloseTrasaction.notransaction_exception_requiresNew_requiresNew" />
-      <item itemvalue="JUnit.TestRequiredNewOuterMethodCloseTrasaction.notransaction_requiresNew_requiresNew_exception" />
-      <item itemvalue="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_exception_required_requiresNew_requiresNew" />
-      <item itemvalue="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception" />
-      <item itemvalue="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception_try" />
+      <item itemvalue="JUnit.TestNestedOuterMethodCloseTrasaction.notransaction_nested_nested_exception" />
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_exception_nested_nested" />
+      <item itemvalue="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception" />
+      <item itemvalue="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception_try" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_exception_required_requiresNew_requiresNew" />
-        <item itemvalue="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception_try" />
-        <item itemvalue="JUnit.TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception" />
-        <item itemvalue="JUnit.TestRequiredNewOuterMethodCloseTrasaction.notransaction_requiresNew_requiresNew_exception" />
-        <item itemvalue="JUnit.TestRequiredNewOuterMethodCloseTrasaction.notransaction_exception_requiresNew_requiresNew" />
+        <item itemvalue="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception_try" />
+        <item itemvalue="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception" />
+        <item itemvalue="JUnit.TestNestedOuterMethodOpenTrasaction.transaction_exception_nested_nested" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="JUnit.TestNestedOuterMethodCloseTrasaction.notransaction_nested_nested_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -1001,7 +989,7 @@
       <workItem from="1545791988066" duration="10230000" />
       <workItem from="1545878662842" duration="9361000" />
       <workItem from="1546411250175" duration="28752000" />
-      <workItem from="1546584036738" duration="34185000" />
+      <workItem from="1546584036738" duration="44690000" />
     </task>
     <task id="LOCAL-00001" summary="proxyadd">
       <created>1523463266445</created>
@@ -1192,43 +1180,50 @@
       <option name="project" value="LOCAL" />
       <updated>1546916297923</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="事务学习">
+      <created>1546948278055</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1546948278055</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOuterMethodOpenTrasaction_transaction_exception_required_required - 2019.01.08 at 17h 34m 50s.xml">
-      <configuration name="TestOuterMethodOpenTrasaction.transaction_exception_required_required" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOuterMethodOpenTrasaction_transaction_required_required_exception - 2019.01.08 at 17h 35m 50s.xml">
-      <configuration name="TestOuterMethodOpenTrasaction.transaction_required_required_exception" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOuterMethodOpenTrasaction_transaction_required_required_exception_try - 2019.01.08 at 17h 36m 06s.xml">
-      <configuration name="TestOuterMethodOpenTrasaction.transaction_required_required_exception_try" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRequiredNewOuterMethodCloseTrasaction_notransaction_exception_requiresNew_requiresNew - 2019.01.08 at 18h 54m 32s.xml">
-      <configuration name="TestRequiredNewOuterMethodCloseTrasaction.notransaction_exception_requiresNew_requiresNew" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRequiredNewOuterMethodCloseTrasaction_notransaction_requiresNew_requiresNew_exception - 2019.01.08 at 18h 55m 10s.xml">
-      <configuration name="TestRequiredNewOuterMethodCloseTrasaction.notransaction_requiresNew_requiresNew_exception" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRequiredNewOuterMethodOpenTrasaction_transaction_exception_required_requiresNew_requiresNew - 2019.01.08 at 19h 36m 35s.xml">
-      <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_exception_required_requiresNew_requiresNew" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRequiredNewOuterMethodOpenTrasaction_transaction_required_requiresNew_requiresNew_exception - 2019.01.08 at 19h 37m 04s.xml">
-      <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRequiredNewOuterMethodOpenTrasaction_transaction_required_requiresNew_requiresNew_exception - 2019.01.08 at 19h 38m 10s.xml">
-      <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRequiredNewOuterMethodOpenTrasaction_transaction_required_requiresNew_requiresNew_exception_try - 2019.01.08 at 19h 48m 04s.xml">
       <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_required_requiresNew_requiresNew_exception_try" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestRequiredNewOuterMethodOpenTrasaction_transaction_exception_required_requiresNew_requiresNew - 2019.01.08 at 19h 49m 36s.xml">
       <configuration name="TestRequiredNewOuterMethodOpenTrasaction.transaction_exception_required_requiresNew_requiresNew" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestNestedOuterMethodCloseTrasaction_notransaction_exception_nested_nested - 2019.01.08 at 20h 03m 56s.xml">
+      <configuration name="TestNestedOuterMethodCloseTrasaction.notransaction_exception_nested_nested" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodCloseTrasaction_notransaction_nested_nested_exception - 2019.01.08 at 20h 04m 52s.xml">
+      <configuration name="TestNestedOuterMethodCloseTrasaction.notransaction_nested_nested_exception" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodCloseTrasaction_notransaction_nested_nested_exception - 2019.01.08 at 20h 05m 24s.xml">
+      <configuration name="TestNestedOuterMethodCloseTrasaction.notransaction_nested_nested_exception" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodCloseTrasaction_notransaction_exception_nested_nested - 2019.01.08 at 20h 08m 59s.xml">
+      <configuration name="TestNestedOuterMethodCloseTrasaction.notransaction_exception_nested_nested" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodCloseTrasaction_notransaction_nested_nested_exception - 2019.01.08 at 20h 09m 11s.xml">
+      <configuration name="TestNestedOuterMethodCloseTrasaction.notransaction_nested_nested_exception" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodOpenTrasaction_transaction_exception_nested_nested - 2019.01.09 at 11h 10m 03s.xml">
+      <configuration name="TestNestedOuterMethodOpenTrasaction.transaction_exception_nested_nested" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodOpenTrasaction_transaction_nested_nested_exception - 2019.01.09 at 11h 13m 15s.xml">
+      <configuration name="TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNestedOuterMethodOpenTrasaction_transaction_nested_nested_exception_try - 2019.01.09 at 11h 15m 48s.xml">
+      <configuration name="TestNestedOuterMethodOpenTrasaction.transaction_nested_nested_exception_try" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467437000" />
+    <option name="totallyTimeSpent" value="477942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1254,7 +1249,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" x="662" y="296" width="1014" height="542" id="Run" order="2" weight="0.7848384" />
+      <window_info anchor="bottom" x="662" y="296" width="1014" height="542" id="Run" order="2" weight="0.5797101" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5406912" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1332,7 +1327,8 @@
     <MESSAGE value="spring自定义注解" />
     <MESSAGE value="集成mybatis" />
     <MESSAGE value="去除敏感信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除敏感信息" />
+    <MESSAGE value="事务学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="事务学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1453,7 +1449,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java</url>
-          <line>17</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
@@ -1539,30 +1535,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/hahah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gagaga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BigDataSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/resources/tcbase.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springtest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1584,13 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar!/org/springframework/transaction/annotation/Propagation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1751,16 +1716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1850,20 +1805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredOuterMethodOpenTrasaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -1901,57 +1842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodCloseTrasaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodCloseTrasaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="293" selection-start-line="293" selection-end-line="293" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1974,8 +1868,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodOpenTrasaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="562">
+          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/RequiredNewOuterMethodCloseTrasaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestRequiredNewOuterMethodCloseTrasaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar!/org/springframework/transaction/annotation/Propagation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User1ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodCloseTrasaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodCloseTrasaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/impl/User2ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/service/User2Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/component/mybatis事务/NestedOuterMethodOpenTrasaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/test/java/TestNestedOuterMethodOpenTrasaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

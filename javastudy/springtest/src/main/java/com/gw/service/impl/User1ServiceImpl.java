@@ -27,4 +27,10 @@ public class User1ServiceImpl implements User1Service {
     public void addRequiresNew(User1 user1) {
         user1Mapper.insert(user1);
     }
+
+    @Override
+    @Transactional(propagation = Propagation.NESTED)
+    public void addNested(User1 user1) {
+        user1Mapper.insert(user1);
+    }
 }
