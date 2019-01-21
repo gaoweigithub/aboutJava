@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aboutNetty" />
         <module name="elasticsearch" />
+        <module name="getUser" />
         <module name="javaAgent" />
         <module name="springtest" />
         <module name="studyredis" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="aboutNetty" target="8" />
       <module name="elasticsearch" target="8" />
+      <module name="getUser" target="8" />
       <module name="javaAgent" target="1.8" />
       <module name="javastudy" target="8" />
       <module name="springtest" target="8" />

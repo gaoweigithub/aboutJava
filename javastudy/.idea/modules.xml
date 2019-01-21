@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aboutNetty/aboutNetty.iml" filepath="$PROJECT_DIR$/aboutNetty/aboutNetty.iml" />
       <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getUser/getUser.iml" filepath="$PROJECT_DIR$/getUser/getUser.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaAgent/javaAgent.iml" filepath="$PROJECT_DIR$/javaAgent/javaAgent.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy.iml" filepath="$PROJECT_DIR$/javastudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/springtest/springtest.iml" filepath="$PROJECT_DIR$/springtest/springtest.iml" />

@@ -3,6 +3,7 @@ package com.gw;
 import com.gw.common.Hello;
 import com.gw.common.Student;
 import com.gw.common.Welcome;
+import com.gw.controller.TestNettyController;
 import com.gw.custome.ScanClass1;
 import com.gw.service.UserService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -26,6 +27,9 @@ public class Runner {
         UserService userService = context.getBean(UserService.class);
         int ii = userService.countAll();
         System.out.println(ii);
+
+        TestNettyController testNettyController = (TestNettyController) context.getBean("testNettyController");
+        System.out.println(testNettyController.get("gfgww"));
 
         for (;;);
     }

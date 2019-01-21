@@ -25,14 +25,14 @@ import java.lang.reflect.Proxy;
 import java.util.Set;
 
 @Component
-public class BeanScannerConfigurer implements BeanFactoryPostProcessor, ApplicationContextAware {
+public class CustomBeanScannerConfigurer implements BeanFactoryPostProcessor, ApplicationContextAware {
     private ApplicationContext applicationContext;
 
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         Scanner scanner = new Scanner((BeanDefinitionRegistry) beanFactory);
         scanner.setResourceLoader(this.applicationContext);
-        scanner.scan("com.gw.custome");
+        scanner.scan("com.gw");
     }
 
     @Override

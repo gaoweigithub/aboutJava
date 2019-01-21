@@ -18,6 +18,7 @@
     <context:component-scan base-package="com.gw">
         <!--自定义注解过滤-->
         <context:exclude-filter type="annotation" expression="com.gw.annotations.CustomizeComponent"/>
+        <context:exclude-filter type="annotation" expression="com.gw.annotations.NettyController"/>
     </context:component-scan>
     <import resource="applicationContext.xml"/>
     <!-- 加载 properties 文件 -->

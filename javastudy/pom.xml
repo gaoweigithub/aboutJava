@@ -43,6 +43,7 @@
         <module>javaAgent</module>
         <module>springtest</module>
         <module>aboutNetty</module>
+        <module>getUser</module>
     </modules>
 
     <dependencies>
