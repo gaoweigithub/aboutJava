@@ -6,11 +6,12 @@ import com.gw.common.Welcome;
 import com.gw.controller.TestNettyController;
 import com.gw.custome.ScanClass1;
 import com.gw.service.UserService;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Runner {
     public static void main(String[] args) throws Exception {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/spring-main.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/spring-main.xml");
 
         Hello hh = (Hello) context.getBean("getMyHello");
         System.out.println(hh.getName());

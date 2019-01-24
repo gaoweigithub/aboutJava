@@ -1,10 +1,6 @@
 package com.gw.scanner;
 
 import com.gw.annotations.NettyController;
-import com.gw.annotations.NettyMapping;
-import com.gw.common.Action;
-import com.gw.common.ActionMapUtil;
-import net.sf.cglib.core.DefaultNamingPolicy;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 import org.springframework.beans.BeansException;
@@ -13,7 +9,6 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
