@@ -10,10 +10,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@NettyController(value = "/netty")
+@NettyController(value = "netty")
 public class TestNettyController {
 
-    @NettyMapping(value = "/get", METHODS = {HttpMethod.POST, HttpMethod.GET})
+    @NettyMapping(value = "get", METHODS = {HttpMethod.POST, HttpMethod.GET})
     public String get(String username) {
         JSONObject resultJson = new JSONObject();
         Map<String, String> loginResult = new HashMap<String, String>();

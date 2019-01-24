@@ -28,7 +28,7 @@ public class Runner {
         int ii = userService.countAll();
         System.out.println(ii);
 
-        TestNettyController testNettyController = (TestNettyController) context.getBean("testNettyController");
+        TestNettyController testNettyController = (TestNettyController) context.getBean("netty");
         System.out.println(testNettyController.get("gfgww"));
 
         for (;;);

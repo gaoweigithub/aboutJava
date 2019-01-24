@@ -25,6 +25,7 @@ public class MyHanlder extends SimpleChannelInboundHandler<FullHttpRequest> {
         Map<String,Object> parmMap = new HashMap<>();
         System.out.println("请求方式：" + method);
         System.out.println("URL：" + msg.uri());
+
         if (method == HttpMethod.GET){
             // 是GET请求
             QueryStringDecoder decoder = new QueryStringDecoder(msg.uri());

@@ -83,16 +83,17 @@ public class NettyBeanScannerConfigurer implements BeanFactoryPostProcessor, App
 
         @Override
         public T getObject() throws Exception {
-            Class innerClass = Class.forName(innerClassName);
-            if (innerClass.isInterface()) {
-                return (T) InterfaceProxy.newInstance(innerClass);
-            } else {
-                net.sf.cglib.proxy.Enhancer enhancer = new net.sf.cglib.proxy.Enhancer();
-                enhancer.setSuperclass(innerClass);
-                enhancer.setNamingPolicy(DefaultNamingPolicy.INSTANCE);
-                enhancer.setCallback(new MethodInterceptorImpl());
-                return (T) enhancer.create();
-            }
+//            Class innerClass = Class.forName(innerClassName);
+//            if (innerClass.isInterface()) {
+//                return (T) InterfaceProxy.newInstance(innerClass);
+//            } else {
+//                net.sf.cglib.proxy.Enhancer enhancer = new net.sf.cglib.proxy.Enhancer();
+//                enhancer.setSuperclass(innerClass);
+//                enhancer.setNamingPolicy(DefaultNamingPolicy.INSTANCE);
+//                enhancer.setCallback(new MethodInterceptorImpl());
+//                return (T) enhancer.create();
+//            }
+            return (T) Class.forName(innerClassName).newInstance();
         }
 
         @Override
