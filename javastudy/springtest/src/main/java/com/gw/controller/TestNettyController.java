@@ -1,30 +1,33 @@
 package com.gw.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import com.gw.annotations.NettyController;
 import com.gw.annotations.NettyMapping;
-import org.springframework.context.annotation.Bean;
+import com.gw.container.model.Header;
+import com.gw.container.model.request.TestRequest;
+import com.gw.container.model.response.TestResponse;
 import org.springframework.http.HttpMethod;
-
-import java.util.HashMap;
-import java.util.Map;
 
 
 @NettyController(value = "netty")
 public class TestNettyController {
 
     @NettyMapping(value = "get", METHODS = {HttpMethod.POST, HttpMethod.GET})
-    public String get(String username) {
-        JSONObject resultJson = new JSONObject();
-        Map<String, String> loginResult = new HashMap<String, String>();
-        loginResult.put("username", username);
-        loginResult.put("age", "20");
-        loginResult.put("sex", "boy");
+    public TestResponse get(Header header111,TestRequest request) {
 
-        resultJson.put("code", 200);
-        resultJson.put("msg", "登录成功");
-        resultJson.put("result", loginResult);
-
-        return JSONObject.toJSONString(resultJson);
+        StringBuffer sb = new StringBuffer();
+        sb.append(header111 == null ? "" : "client:" + header111.getClientType() + "  ");
+        sb.append(header111 == null ? "" : "deviceid:" + header111.getDeviceId() + "  ");
+        if (request != null) {
+            if (request.getId() != null) {
+                sb.append("id:").append(request.getId()).append("   ");
+            }
+            if (request.getName() != null) {
+                sb.append("name:").append(request.getName()).append("   ");
+            }
+        }
+        TestResponse tr = new TestResponse();
+        tr.setCode(1);
+        tr.setWelcomeMsg(sb.toString());
+        return tr;
     }
 }

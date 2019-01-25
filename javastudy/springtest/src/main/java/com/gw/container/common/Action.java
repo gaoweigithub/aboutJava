@@ -1,4 +1,4 @@
-package com.gw.common;
+package com.gw.container.common;
 
 import org.springframework.http.HttpMethod;
 

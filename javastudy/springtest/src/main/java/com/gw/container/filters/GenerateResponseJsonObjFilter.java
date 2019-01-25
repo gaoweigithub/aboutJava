@@ -7,7 +7,7 @@ import com.gw.container.common.BaseFilter;
 @BeforeFilter
 public class GenerateResponseJsonObjFilter extends BaseFilter {
     @Override
-    public void process() {
+    public void _process() {
         getScContext().setResponseObj(JSON.parseObject(JSON.toJSONString(getScContext().getResponse())));
     }
 }

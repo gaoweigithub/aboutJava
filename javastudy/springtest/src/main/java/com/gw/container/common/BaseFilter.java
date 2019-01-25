@@ -23,9 +23,14 @@ public abstract class BaseFilter {
         this.scContext = scContext;
     }
 
-    public void process(SCContext scContext){
+    public void process(SCContext scContext) {
         setScContext(scContext);
-        _process();
+        try {
+            _process();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
+
     public abstract void _process();
 }

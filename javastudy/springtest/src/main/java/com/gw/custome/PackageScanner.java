@@ -15,7 +15,7 @@ public abstract class PackageScanner {
     public PackageScanner() {
     }
 
-    public abstract void dealClass(Class<?> klass);
+    public abstract void dealClass(Class<?> klass) throws IllegalAccessException, InstantiationException;
 
     public void packageScanner(Class<?> klass) {
         packageScanner(klass.getPackage().getName());
@@ -69,6 +69,10 @@ public abstract class PackageScanner {
                 dealClass(klass);
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
             }
         }
     }
@@ -99,6 +103,10 @@ public abstract class PackageScanner {
                     }
                     dealClass(klass);
                 } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
                     e.printStackTrace();
                 }
             }

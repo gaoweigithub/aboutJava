@@ -3,6 +3,7 @@ package com.gw.container;
 import com.alibaba.fastjson.JSONObject;
 import com.gw.container.model.BaseRequest;
 import com.gw.container.model.BaseResponse;
+import com.gw.container.model.Header;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,6 +21,15 @@ public class SCContext {
     private JSONObject responseObj;
     private boolean errorToExit;
     private String message;
+    private Header header;
+
+    public Header getHeader() {
+        return header;
+    }
+
+    public void setHeader(Header header) {
+        this.header = header;
+    }
 
     public boolean isErrorToExit() {
         return errorToExit;

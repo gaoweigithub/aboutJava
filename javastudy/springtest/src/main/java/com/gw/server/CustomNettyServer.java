@@ -1,5 +1,7 @@
 package com.gw.server;
 
+import com.gw.custome.PackageScanner;
+import com.gw.starter.BaseStarter;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;
@@ -14,12 +16,31 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class CustomNettyServer {
     public static void main(String[] args) throws InterruptedException {
         ServerBootstrap serverBootstrap = new ServerBootstrap();
 
         NioEventLoopGroup boss = new NioEventLoopGroup();
         NioEventLoopGroup worker = new NioEventLoopGroup();
+
+        //启动项扫描
+        List<Object> starters = new LinkedList<>();
+        new PackageScanner() {
+            @Override
+            public void dealClass(Class<?> klass) throws IllegalAccessException, InstantiationException {
+                if (BaseStarter.class.isAssignableFrom(klass)) {
+                    starters.add(klass.newInstance());
+                }
+            }
+        }.packageScanner("com.gw.container");
+        //执行starter
+        starters.stream().forEach(s -> {
+            BaseStarter action = (BaseStarter) s;
+            action.process();
+        });
 
         serverBootstrap
                 .group(boss, worker)

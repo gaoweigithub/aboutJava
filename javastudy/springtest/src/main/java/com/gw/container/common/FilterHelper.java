@@ -4,15 +4,13 @@ import com.gw.annotations.AfterFilter;
 import com.gw.annotations.BeforeFilter;
 import com.gw.common.Node;
 import com.gw.custome.PackageScanner;
-import org.springframework.stereotype.Component;
+import com.gw.starter.BaseStarter;
 
-import javax.annotation.PostConstruct;
-
-public  class FilterHelper {
+public class FilterHelper extends BaseStarter {
     private static Node<BaseFilter> beforeFilters = null;
-    private static  Node<BaseFilter> afterFilters = null;
+    private static Node<BaseFilter> afterFilters = null;
 
-    public  static void addBeforeFilter(BaseFilter filter) {
+    public static void addBeforeFilter(BaseFilter filter) {
         if (beforeFilters == null) {
             beforeFilters = new Node<>(filter);
             return;
@@ -20,7 +18,7 @@ public  class FilterHelper {
         appendBySort(beforeFilters, filter);
     }
 
-    public static  void addAfterFilter(BaseFilter filter) {
+    public static void addAfterFilter(BaseFilter filter) {
         if (afterFilters == null) {
             afterFilters = new Node<>(filter);
             return;
@@ -28,7 +26,7 @@ public  class FilterHelper {
         appendBySort(afterFilters, filter);
     }
 
-    private static  void appendBySort(Node<BaseFilter> root, BaseFilter filter) {
+    private static void appendBySort(Node<BaseFilter> root, BaseFilter filter) {
 
         Node<BaseFilter> now = root;
         while (now != null) {
@@ -49,7 +47,7 @@ public  class FilterHelper {
         }
     }
 
-    private static  void addFilter() {
+    private static void addFilter() {
         new PackageScanner() {
             @Override
             public void dealClass(Class<?> klass) {
@@ -74,11 +72,16 @@ public  class FilterHelper {
         }.packageScanner("com.gw.container.filters");
     }
 
-    public static  Node<BaseFilter> getBeforeFilters() {
+    public static Node<BaseFilter> getBeforeFilters() {
         return beforeFilters;
     }
 
-    public  static Node<BaseFilter> getAfterFilters() {
+    public static Node<BaseFilter> getAfterFilters() {
         return afterFilters;
+    }
+
+    @Override
+    public void _process() {
+        addFilter();
     }
 }
