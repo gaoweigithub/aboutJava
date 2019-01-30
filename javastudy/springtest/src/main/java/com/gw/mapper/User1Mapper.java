@@ -1,6 +1,6 @@
 package com.gw.mapper;
 
-import com.gw.pojo.User1;
+import com.gw.model.po.User1;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 

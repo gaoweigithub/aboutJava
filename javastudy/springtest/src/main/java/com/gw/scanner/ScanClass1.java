@@ -1,4 +1,4 @@
-package com.gw.custome;
+package com.gw.scanner;
 
 import com.gw.annotations.CustomizeComponent;
 

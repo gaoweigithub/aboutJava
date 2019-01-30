@@ -1,14 +1,12 @@
 package com.gw.service.impl;
 
 import com.gw.mapper.User1Mapper;
-import com.gw.pojo.User1;
+import com.gw.model.po.User1;
 import com.gw.service.User1Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-
-import javax.annotation.Resource;
 
 @Service
 public class User1ServiceImpl implements User1Service {

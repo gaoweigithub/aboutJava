@@ -1,7 +1,7 @@
 package com.gw.component.mybatis事务;
 
-import com.gw.pojo.User1;
-import com.gw.pojo.User2;
+import com.gw.model.po.User1;
+import com.gw.model.po.User2;
 import com.gw.service.User1Service;
 import com.gw.service.User2Service;
 import org.springframework.beans.factory.annotation.Autowired;

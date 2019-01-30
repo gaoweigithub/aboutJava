@@ -4,7 +4,7 @@ import com.gw.annotations.NettyController;
 import com.gw.annotations.NettyMapping;
 import com.gw.container.common.Action;
 import com.gw.container.common.ActionMapUtil;
-import com.gw.custome.PackageScanner;
+import com.gw.scanner.PackageScanner;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.ApplicationContext;
 

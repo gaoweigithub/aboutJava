@@ -1,7 +1,7 @@
 package com.gw.service.impl;
 
 import com.gw.mapper.User2Mapper;
-import com.gw.pojo.User2;
+import com.gw.model.po.User2;
 import com.gw.service.User2Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

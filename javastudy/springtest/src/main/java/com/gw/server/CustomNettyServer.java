@@ -1,7 +1,7 @@
 package com.gw.server;
 
 import com.gw.container.starter.StarterOrderAnnotation;
-import com.gw.custome.PackageScanner;
+import com.gw.scanner.PackageScanner;
 import com.gw.container.starter.BaseStarter;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelInitializer;
@@ -12,8 +12,6 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 
-import java.util.LinkedList;
-import java.util.List;
 import java.util.TreeMap;
 
 public class CustomNettyServer {

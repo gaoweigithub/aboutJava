@@ -1,6 +1,6 @@
 package com.gw.service;
 
-import com.gw.pojo.User;
+import com.gw.model.po.User;
 
 import java.util.Map;
 

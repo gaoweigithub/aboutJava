@@ -2,12 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gw.mapper.User1Mapper">
 
-    <parameterMap type="com.gw.pojo.User1" id="parameterMapUser">
+    <parameterMap type="com.gw.model.po.User1" id="parameterMapUser">
         <parameter property="id"/>
         <parameter property="name"/>
     </parameterMap>
 
-    <resultMap type="com.gw.pojo.User1" id="resultMapUser">
+    <resultMap type="com.gw.model.po.User1" id="resultMapUser">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
     </resultMap>

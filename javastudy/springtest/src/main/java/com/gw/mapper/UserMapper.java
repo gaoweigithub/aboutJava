@@ -1,6 +1,6 @@
 package com.gw.mapper;
 
-import com.gw.pojo.User;
+import com.gw.model.po.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

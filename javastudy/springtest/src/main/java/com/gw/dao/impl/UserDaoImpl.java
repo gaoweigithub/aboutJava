@@ -2,7 +2,7 @@ package com.gw.dao.impl;
 
 import com.gw.dao.inter.UserDao;
 import com.gw.mapper.UserMapper;
-import com.gw.pojo.User;
+import com.gw.model.po.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

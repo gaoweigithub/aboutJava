@@ -1,4 +1,4 @@
-package com.gw.pojo;
+package com.gw.model.po;
 
 public class UserRequest {
     private Integer id;

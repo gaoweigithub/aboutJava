@@ -1,6 +1,6 @@
 package com.gw.dao.inter;
 
-import com.gw.pojo.User;
+import com.gw.model.po.User;
 
 import java.util.List;
 import java.util.Map;

@@ -1,7 +1,7 @@
 package com.gw.service.impl;
 
 import com.gw.dao.inter.UserDao;
-import com.gw.pojo.User;
+import com.gw.model.po.User;
 import com.gw.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

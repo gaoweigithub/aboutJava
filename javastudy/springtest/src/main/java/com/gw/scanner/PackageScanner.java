@@ -1,4 +1,4 @@
-package com.gw.custome;
+package com.gw.scanner;
 
 import java.io.File;
 import java.io.FileFilter;
