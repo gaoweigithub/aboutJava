@@ -32,18 +32,6 @@
             <artifactId>commons-httpclient</artifactId>
             <version>3.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.ly.base</groupId>
-            <artifactId>tcwireless-component-membersecurity</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.ly.dal</groupId>
-            <artifactId>dal-new</artifactId>
-            <version>3.2.11</version>
-        </dependency>
         <!--序列化-->
         <!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
         <dependency>
@@ -161,11 +149,6 @@
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
             <version>${graphql-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ly.tcbase</groupId>
-            <artifactId>configcenterclient</artifactId>
-            <version>${configcenterclient}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring4 -->
         <dependency>
