@@ -1,9 +1,9 @@
-package com.gw.container.common;
+package com.gw.container.starter;
 
-import com.gw.starter.BaseStarter;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+@StarterOrderAnnotation(order = 1)
 public class ContextUtil extends BaseStarter {
     private static ApplicationContext context;
 

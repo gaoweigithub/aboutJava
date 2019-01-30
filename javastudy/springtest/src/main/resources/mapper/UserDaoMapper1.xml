@@ -17,7 +17,7 @@ INSERT INTO user1(id,name)
 VALUES(?,?)
 </insert>
     <select id="selectByPrimaryKey" resultMap="resultMapUser" parameterType="hashmap">
-select * c from user1 where id = #{id};
+select * from user1 where id = #{id};
 </select>
 </mapper>
 

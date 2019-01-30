@@ -1,23 +1,20 @@
 package com.gw.server;
 
+import com.gw.container.starter.StarterOrderAnnotation;
 import com.gw.custome.PackageScanner;
-import com.gw.starter.BaseStarter;
+import com.gw.container.starter.BaseStarter;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;
-import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
-import io.netty.handler.codec.http.HttpRequestDecoder;
-import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.codec.http.HttpServerCodec;
-import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.TreeMap;
 
 public class CustomNettyServer {
     public static void main(String[] args) throws InterruptedException {
@@ -27,19 +24,23 @@ public class CustomNettyServer {
         NioEventLoopGroup worker = new NioEventLoopGroup();
 
         //启动项扫描
-        List<Object> starters = new LinkedList<>();
+        TreeMap<Integer, BaseStarter> baseStarterTreeMap = new TreeMap<>();
         new PackageScanner() {
             @Override
             public void dealClass(Class<?> klass) throws IllegalAccessException, InstantiationException {
-                if (BaseStarter.class.isAssignableFrom(klass)) {
-                    starters.add(klass.newInstance());
+                if (BaseStarter.class.isAssignableFrom(klass) && !klass.isAnnotationPresent(Deprecated.class)) {
+                    StarterOrderAnnotation orderAnnotation = klass.getAnnotation(StarterOrderAnnotation.class);
+                    Integer order = Integer.MAX_VALUE;
+                    if (orderAnnotation != null) {
+                        order = orderAnnotation.order();
+                    }
+                    baseStarterTreeMap.put(order, (BaseStarter) klass.newInstance());
                 }
             }
         }.packageScanner("com.gw.container");
         //执行starter
-        starters.stream().forEach(s -> {
-            BaseStarter action = (BaseStarter) s;
-            action.process();
+        baseStarterTreeMap.entrySet().forEach(en -> {
+            en.getValue().process();
         });
 
         serverBootstrap

@@ -1,30 +1,20 @@
 package com.gw.controller;
 
-import com.alibaba.fastjson.JSONObject;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import com.gw.annotations.NettyController;
+import com.gw.annotations.NettyMapping;
+import com.gw.mapper.User1Mapper;
+import com.gw.pojo.User1;
+import com.gw.pojo.UserRequest;
+import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.HashMap;
-import java.util.Map;
-
-@Controller
-@RequestMapping(value = "/user", produces = "text/json;charset=utf-8")
+@NettyController("user")
 public class UserController {
+    @Autowired
+    private User1Mapper user1Mapper;
 
-    @RequestMapping("/login")
-    @ResponseBody
-    public String login(String username, String pwd) {
-        JSONObject resultJson = new JSONObject();
-        Map<String, String> loginResult = new HashMap<String, String>();
-        loginResult.put("username", username);
-        loginResult.put("age", "20");
-        loginResult.put("sex", "boy");
-
-        resultJson.put("code", 200);
-        resultJson.put("msg", "登录成功");
-        resultJson.put("result", loginResult);
-
-        return JSONObject.toJSONString(resultJson);
+    @NettyMapping("get")
+    public User1 get(UserRequest request) {
+        User1 rr = user1Mapper.selectByPrimaryKey(request.getId());
+        return rr;
     }
 }

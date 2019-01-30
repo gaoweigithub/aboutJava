@@ -22,7 +22,7 @@
     <aop:aspectj-autoproxy/>
     <aop:config>
         <!--<aop:pointcut id="controllerin" expression="execution(public * com.ly.hotelappconfig.controller.*.*(..))"/>-->
-        <aop:pointcut id="controllerin" expression="@annotation(org.springframework.web.bind.annotation.RequestMapping)"/>
+        <aop:pointcut id="controllerin" expression="@annotation(com.gw.annotations.NettyMapping)"/>
         <aop:aspect ref="controllerLog">
             <!--<aop:before pointcut-ref="controllerin" method="Before"/>-->
             <aop:around method="Around" pointcut-ref="controllerin"/>

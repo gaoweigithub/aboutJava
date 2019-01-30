@@ -16,7 +16,6 @@ public class ControllerLog {
     public Object Around(ProceedingJoinPoint point) throws Throwable {
         StringBuffer sb = new StringBuffer();
         sb.append("开始拦截接口入参\r\n");
-        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
         Object[] objs = point.getArgs();
         sb.append("参数列表:");
         //121
@@ -29,6 +28,7 @@ public class ControllerLog {
         Method method = signature.getMethod();
         Object result = point.proceed(objs);
         sb.append("响应：" + JSON.toJSONString(result));
+        System.out.println(sb.toString());
         return result;
     }
 }

@@ -13,7 +13,6 @@ public class ActionMapUtil {
 
     private static Map<String, Map<String, Action>> map = new HashMap<>();
 
-
     public static Object invoke(String service, String key, String request, Header header) throws Exception {
         if (map.containsKey(service) && map.get(service).containsKey(key)) {
             Action action = map.get(service).get(key);

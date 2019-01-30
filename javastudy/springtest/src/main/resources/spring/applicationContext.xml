@@ -23,7 +23,19 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
     <!--指定spring注入层 -->
     <context:component-scan base-package="com.gw"/>
 
-    <bean id="PostProcessor" class="com.gw.scanner.PostProcessor"></bean>
+    <!--此方法废弃  因为无法扫描到代理的方法-->
+    <!--<bean id="PostProcessor" class="com.gw.scanner.PostProcessor"></bean>-->
+
+    <!--aop-->
+    <aop:aspectj-autoproxy/>
+    <aop:config>
+        <!--<aop:pointcut id="controllerin" expression="execution(public * com.ly.hotelappconfig.controller.*.*(..))"/>-->
+        <aop:pointcut id="controllerin" expression="@annotation(com.gw.annotations.NettyMapping)"/>
+        <aop:aspect ref="controllerLog">
+            <!--<aop:before pointcut-ref="controllerin" method="Before"/>-->
+            <aop:around method="Around" pointcut-ref="controllerin"/>
+        </aop:aspect>
+    </aop:config>
 
     <!-- 数据库连接池 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
