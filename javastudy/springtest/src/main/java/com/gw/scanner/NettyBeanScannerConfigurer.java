@@ -23,9 +23,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Set;
 
-/**
- * https://blog.csdn.net/z69183787/article/details/53784845
- */
+
 @Component
 public class NettyBeanScannerConfigurer implements BeanFactoryPostProcessor, ApplicationContextAware {
     private ApplicationContext applicationContext;
