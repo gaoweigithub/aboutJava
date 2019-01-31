@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="代码整理">
-      <change afterPath="$PROJECT_DIR$/src/main/java/存储/IpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithVertualNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithoutVirtualNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/数据结构/链表/study001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/数据结构/链表/study001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gagaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gagaga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hahah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hahah.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeperTest/target/" />
@@ -70,9 +70,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="54" />
+          <entry key="class" value="55" />
           <entry key="iml" value="3" />
-          <entry key="java" value="801" />
+          <entry key="java" value="809" />
           <entry key="kt" value="1" />
           <entry key="png" value="2" />
           <entry key="pom" value="5" />
@@ -84,11 +84,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="54" />
+          <entry key="CLASS" value="55" />
           <entry key="Eclipse" value="1" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="801" />
+          <entry key="JAVA" value="809" />
           <entry key="Kotlin" value="1" />
           <entry key="Properties" value="20" />
           <entry key="XML" value="107" />
@@ -97,7 +97,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="69" />
-          <entry key="java" value="34871" />
+          <entry key="java" value="36638" />
           <entry key="properties" value="92" />
           <entry key="txt" value="135" />
           <entry key="xml" value="843" />
@@ -105,7 +105,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="34871" />
+          <entry key="JAVA" value="36638" />
           <entry key="PLAIN_TEXT" value="204" />
           <entry key="Properties" value="92" />
           <entry key="XML" value="843" />
@@ -115,24 +115,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/存储/IpTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithoutVirtualNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="49" />
+            <state relative-caret-position="505">
+              <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithVertualNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="87" column="85" lean-forward="true" selection-start-line="87" selection-start-column="85" selection-end-line="87" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gagaga.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="182">
+              <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
+              <folding>
+                <element signature="e#35256#35257#0" expanded="true" />
+                <element signature="e#35301#35302#0" expanded="true" />
+                <element signature="e#54171#54172#0" expanded="true" />
+                <element signature="e#54218#54219#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,9 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/container/filters/GenerateJsonObjFilter.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/common/Node.java" />
-        <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/container/filters/GenerateRequestJsonObjFilter.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/container/model/BaseResponse.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/starter/Base.java" />
         <option value="$PROJECT_DIR$/springtest/src/main/java/com/gw/common/ContextUtil.java" />
@@ -245,6 +259,9 @@
         <option value="$PROJECT_DIR$/src/main/java/数据结构/链表/study001.java" />
         <option value="$PROJECT_DIR$/src/main/java/存储/IpTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gagaga.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hahah.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithoutVirtualNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithVertualNode.java" />
       </list>
     </option>
   </component>
@@ -286,10 +303,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="javalearn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springtest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -537,14 +550,9 @@
               <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javastudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="一致性hash" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -600,20 +608,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IpTest">
+  <component name="RunManager" selected="Application.ConsistentHashingWithVertualNode">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomNettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gw.server.CustomNettyServer" />
-      <module name="springtest" />
+    <configuration name="ConsistentHashingWithVertualNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.一致性hash.ConsistentHashingWithVertualNode" />
+      <module name="javastudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gw.server.*" />
+          <option name="PATTERN" value="hash.一致性hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsistentHashingWithoutVirtualNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.一致性hash.ConsistentHashingWithoutVirtualNode" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hash.一致性hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -649,27 +671,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hahah" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hahah" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springtest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springtest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testAnnotation" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -684,19 +694,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CustomNettyServer" />
-      <item itemvalue="JUnit.test.testAnnotation" />
-      <item itemvalue="JUnit.test" />
       <item itemvalue="Application.IpTest" />
       <item itemvalue="Application.gagaga" />
+      <item itemvalue="Application.hahah" />
+      <item itemvalue="Application.ConsistentHashingWithoutVirtualNode" />
+      <item itemvalue="Application.ConsistentHashingWithVertualNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsistentHashingWithVertualNode" />
+        <item itemvalue="Application.ConsistentHashingWithoutVirtualNode" />
+        <item itemvalue="Application.hahah" />
         <item itemvalue="Application.IpTest" />
         <item itemvalue="Application.gagaga" />
-        <item itemvalue="Application.CustomNettyServer" />
-        <item itemvalue="JUnit.test.testAnnotation" />
-        <item itemvalue="JUnit.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1072,7 +1082,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614734000" />
+    <option name="totallyTimeSpent" value="622315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1098,7 +1108,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" x="1933" y="450" width="1014" height="542" id="Run" order="2" visible="true" weight="0.3924192" />
+      <window_info anchor="bottom" x="1933" y="450" width="1014" height="542" id="Run" order="2" weight="0.65440357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33556297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1118,7 +1128,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.15208112" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.15208112" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.49888143" weight="0.32924226" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
@@ -1415,6 +1425,21 @@
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
+        <expression-string>virtualNode == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>subMap.size() == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>klass == FilterHelperV2.class</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>com.gw.starter.FilterHelperV2</custom-info>
@@ -1500,58 +1525,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/elasticsearch/ESShardsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/scanner/NettyBeanScannerConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="68" selection-end-line="85" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.7/cglib-3.2.7-sources.jar!/net/sf/cglib/core/DefaultNamingPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CglibTest/SampleClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getUser/src/main/java/g/common/HttpClientHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getUser/src/main/java/g/common/HttpRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getUser/src/main/java/g/model/userInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getUser/src/main/java/g/service/crawer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1700,16 +1673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/server/NettyHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/server/NettyHttpServer.java" />
     <entry file="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/server/CustomNettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1841,16 +1805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/lang/Integer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#17010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gagaga.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1858,13 +1812,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hahah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/存储/IpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="334">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="e#324#325#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/lang/Integer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
+          <folding>
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/SortedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="207" column="19" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash/一致性hash/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
+          <folding>
+            <element signature="e#35256#35257#0" expanded="true" />
+            <element signature="e#35301#35302#0" expanded="true" />
+            <element signature="e#54171#54172#0" expanded="true" />
+            <element signature="e#54218#54219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithoutVirtualNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash/一致性hash/ConsistentHashingWithVertualNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="87" column="85" lean-forward="true" selection-start-line="87" selection-start-column="85" selection-end-line="87" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
