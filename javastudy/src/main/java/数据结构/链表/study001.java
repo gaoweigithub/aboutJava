@@ -1,5 +1,7 @@
 package 数据结构.链表;
 
+import java.util.concurrent.ConcurrentSkipListMap;
+
 /**
  * 单链表反转
  * <p>
@@ -48,7 +50,6 @@ public class study001 {
             sentinel = nxt;
         }
         printLink(head);
-
     }
 
     private static void printLink(Node node) {
