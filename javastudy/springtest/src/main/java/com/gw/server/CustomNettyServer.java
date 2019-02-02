@@ -26,7 +26,9 @@ public class CustomNettyServer {
         new PackageScanner() {
             @Override
             public void dealClass(Class<?> klass) throws IllegalAccessException, InstantiationException {
-                if (BaseStarter.class.isAssignableFrom(klass) && !klass.isAnnotationPresent(Deprecated.class)) {
+                if (BaseStarter.class.isAssignableFrom(klass)
+                        && klass != BaseStarter.class
+                        && !klass.isAnnotationPresent(Deprecated.class)) {
                     StarterOrderAnnotation orderAnnotation = klass.getAnnotation(StarterOrderAnnotation.class);
                     Integer order = Integer.MAX_VALUE;
                     if (orderAnnotation != null) {

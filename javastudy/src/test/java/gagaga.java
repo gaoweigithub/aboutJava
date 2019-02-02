@@ -5,9 +5,16 @@ import java.util.Date;
 import java.util.Random;
 
 public class gagaga {
-    public static void main(String[] args) {
+    private static String[] array = {""};
 
-        System.out.println(255 & 192);
+    static int test() {
+        System.out.println("evaluated!");
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        array[test()] += "a";
+//        System.out.println(255 & 192);
 
 //        System.out.println(1<<1);
 //        System.out.println(1<<2);
