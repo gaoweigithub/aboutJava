@@ -4,17 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/springtest/src/main/java/com/gw/common/Hello.java" line="2" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="一致性hash算法">
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/controller/InjectTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/DemoElService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/resources/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springtest/src/main/resources/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数据结构/排序/堆/MinHeap.java" afterDir="false" />
+    <list default="true" id="d2bf1329-eccf-4ee2-b17e-4c7eebefacba" name="Default" comment="1，堆排序&#10;2，spring 测试代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springtest/src/main/java/com/gw/server/CustomNettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springtest/src/main/java/com/gw/server/CustomNettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gagaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gagaga.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeperTest/target/" />
@@ -108,14 +99,14 @@
           <entry key="dummy" value="69" />
           <entry key="java" value="37112" />
           <entry key="properties" value="97" />
-          <entry key="txt" value="163" />
+          <entry key="txt" value="182" />
           <entry key="xml" value="843" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="37112" />
-          <entry key="PLAIN_TEXT" value="232" />
+          <entry key="PLAIN_TEXT" value="251" />
           <entry key="Properties" value="97" />
           <entry key="XML" value="843" />
         </counts>
@@ -139,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/排序/堆/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="266">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -782,7 +773,7 @@
       <workItem from="1547799297768" duration="1390000" />
       <workItem from="1548061322035" duration="6553000" />
       <workItem from="1548074742800" duration="87816000" />
-      <workItem from="1549091999205" duration="3859000" />
+      <workItem from="1549091999205" duration="5153000" />
     </task>
     <task id="LOCAL-00001" summary="proxyadd">
       <created>1523463266445</created>
@@ -1064,7 +1055,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548922011360</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="1，堆排序&#10;2，spring 测试代码">
+      <created>1549096217633</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1549096217633</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1100,7 +1098,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="634881000" />
+    <option name="totallyTimeSpent" value="636175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1211,7 +1209,8 @@
     <MESSAGE value="1111" />
     <MESSAGE value="代码整理" />
     <MESSAGE value="一致性hash算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="一致性hash算法" />
+    <MESSAGE value="1，堆排序&#10;2，spring 测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，堆排序&#10;2，spring 测试代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1914,8 +1913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/数据结构/排序/堆/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="266">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
